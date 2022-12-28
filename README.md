@@ -7,7 +7,6 @@ This is a student-led project exposing students from all backgrounds to sustaina
 - SCSS
 - JS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Continued development
