@@ -9,12 +9,6 @@ html{
     box-sizing: inherit; //allows elements to inherit box-sizing
 }
 
-//REMOVE AFTER-----
-.temp{
-    text-align: center;
-    font-size: 3rem;
-}
-//REMOVE AFTER------
 
 body{
     //spacing
@@ -26,12 +20,6 @@ body{
     font-weight: 300;
     color: $blue;
     line-height: 1.5;
-    background-color: $lightgreen; //REMOVE After
-
-    //no-scroll when mobile menu is shown
-    &.no-scroll{
-        overflow: hidden;
-    }
 }
 
 a, a:visited, a:hover{

@@ -1,23 +1,41 @@
-.has-fade{
+
+//these are instructions to animate the hamburger menu
+.open{
+    .header__togglebrgr{
+        > span:first-child{
+            transform: rotate(45deg);
+        }
+        > span:nth-child(2){
+            opacity: 0;
+        }
+        > span:last-child{
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+//these are instructions to make overlay appear/disappear along with hamburger menu
+
+.fade{
     visibility: hidden;
 }
+
 @keyframes fade-in {
     from{
         visibility: hidden;
         opacity: 0;
     }
-    1%{
+    1%{ //This is here so we can animate how fast it fades in
         visibility: visible;
         opacity: 0;
     }
-    to{ 
+    to{
         visibility: visible;
         opacity: 1;
     }
 }
-//helper class to fade-in
 .fade-in{
-    animation: fade-in 300ms ease-in-out forwards;
+    animation: fade-in 300ms ease-in-out forwards; //forwards is to make it stay
 }
 
 @keyframes fade-out {
@@ -25,7 +43,7 @@
         visibility: visible;
         opacity: 1;
     }
-    99%{
+    99%{ //This is here so we can animate how fast it fades in
         visibility: visible;
         opacity: 0;
     }
@@ -35,5 +53,5 @@
     }
 }
 .fade-out{
-    animation: fade-out 300ms ease-in-out forwards;
+    animation: fade-out 300ms ease-in-out forwards; //forwards is to make it stay
 }

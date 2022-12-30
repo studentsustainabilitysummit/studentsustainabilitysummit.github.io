@@ -16,15 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet">
     <!--Link to css file-->
     <link rel="stylesheet" href="./app/css/style.css">
-    <title>S3 | Home</title>
+    <title>S3 | About</title>
 
 </head>
 <body>
     <header class = "header">
-        <div class="overlay has-fade"></div>
         <nav class="flex flex-jc-sb flex-ai-c">
             <!--References back to the home page-->
-            <a href="index.html" class="header__logo">
+            <a href="#" class="header__logo">
                 <img src="./images/logo_s3.png" alt="S^3"/>
             </a>
             
@@ -41,28 +40,28 @@
             <a href="#" class="button hide-for-mobile">Register For Free</a>
 
             <!--Hamburger Menu for mobile version-->
-            <a id="btnHmbrgr" href="#" class="header__togglebrgr hide-for-desktop">
+            <a id="btnHambrgr" href="#" class="header__togglebrgr hide-for-desktop">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
-
-            <!--Mobile menu after clicking hamburger-->
-            <div class="header__menumobile has-fade hide-for-desktop">
-                <a href="index.html">About</a>
-                <a href="#">Schedule</a>
-                <a href="#">Apply to Present</a>
-                <a href="#">FAQ</a>
-                <a href="#">Meet the Team</a>     
-            </div>
-
         </nav>
+        
+        <!--Overlay when mobile menu is selected-->
+        <div class="overlay fade hide-for-desktop"></div>
+
+        <!--Mobile menu after clicking hamburger-->
+        <div class="header__menumobile fade hide-for-desktop">
+            <a href="index.html">About</a>
+            <a href="#">Schedule</a>
+            <a href="#">Apply to Present</a>
+            <a href="#">FAQ</a>
+            <a href="#">Meet the Team</a>     
+        </div>
+
+        
     </header>
     
-    <section class="temp">
-        <h1>Student Sustainability Summit 2023</h1>
-        <h2>Under Construction</h2>
-    </section>
    
     <script src="/Users/Maria Nicos/OneDrive/Desktop/S3/app/js/script.js"></script>
 </body>
