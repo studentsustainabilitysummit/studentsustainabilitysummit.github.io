@@ -11,7 +11,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 
 ## Continued development
 
-- Intro hero
+- Goals
 - Sticky navigation
 
 ## Useful resources
