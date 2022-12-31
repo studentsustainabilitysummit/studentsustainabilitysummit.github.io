@@ -20,13 +20,16 @@ body{
     font-weight: 300;
     color: $blue;
     line-height: 1.5;
+
 }
+
 
 a, a:visited, a:hover{
     text-decoration: none; //removes line underneath link
 }
 
 button,.button{
+    display: inline-block;
     padding: $med $large; //18px,33px size of button
     border: 0;
     border-radius: 6px;
@@ -35,6 +38,7 @@ button,.button{
     color: $white;
     font-weight: 400;
     transition: background-color 300ms ease-in-out;
+
 
     &:hover{
         background-color : $green;
@@ -58,6 +62,14 @@ button,.button{
     }
 }
 
+.container{
+    //helper classes for consistent padding of sections
+    &__py{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+}
+
 //visibility on diferent devices
 .hide-for-mobile{
     @include breakpoint-down(medium){
@@ -70,3 +82,12 @@ button,.button{
         display: none;
     }
 }
+
+
+
+/*May be useful
+//no-scroll when mobile navigation is open
+    &.no-scroll{
+        overflow: hidden;
+    }
+*/

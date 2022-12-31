@@ -7,7 +7,9 @@
         padding-left: 10px;
         padding-right: 20px;
         padding-top: 1px;
-        padding-bottom: 5px;
+        padding-bottom: 0px;
+        overflow: hidden;
+        top: 0;
     }
 
     &__logo{
@@ -37,7 +39,7 @@
 
     //Initial look of overlay when mobile menu is open
     .overlay{
-        opacity: 1;
+        opacity: 0;
         position: fixed;
         background-color: $verylightgray;
         top: 7.75rem;
@@ -47,14 +49,13 @@
     }
 
     
-
     //menu options for mobile 
     &__menumobile{
         position: absolute;
-        width: calc(100% - 3.5rem);
+        width: calc(100% - 3.75rem);
         background: $white;
         border-radius: 5px;
-        margin: 0px 1.5rem;
+        margin: 0px 2rem;
         padding: 1.625rem;
         margin-top: 10px;
 
@@ -127,7 +128,7 @@
     
 }
 
-/*Maybe useful later
+/*May be useful
 
 //these are instructions to animate the hamburger menu
     /*

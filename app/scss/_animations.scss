@@ -55,3 +55,18 @@
 .fade-out{
     animation: fade-out 300ms ease-in-out forwards; //forwards is to make it stay
 }
+
+//instructions for navigation to stick to top of the screen
+.stick-to-top{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.container{
+    padding: 16px;
+}
+
+.sticky + .container {
+    padding-top: 60px;
+  }
