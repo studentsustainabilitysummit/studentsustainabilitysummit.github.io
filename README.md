@@ -11,7 +11,9 @@ This is a student-led project exposing students from all backgrounds to sustaina
 
 ## Continued development
 
-- Goals
+- Description for desktop
+- Goals for desktop
+- Footer
 - Sticky navigation
 
 ## Useful resources
