@@ -20,6 +20,7 @@ body{
     font-weight: 300;
     color: $blue;
     line-height: 1.5;
+    text-align: center;
 
 }
 
@@ -41,7 +42,7 @@ button,.button{
 
 
     &:hover{
-        background-color : $green;
+        background-color : $orange;
     }
 }
 
@@ -64,8 +65,22 @@ button,.button{
 
 .container{
     //helper classes for consistent padding of sections
+    &__p-all{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     &__py{
         padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+    &__px{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    &__pb{
+        padding-top: 0px;
         padding-bottom: 3.125rem;
     }
 }
