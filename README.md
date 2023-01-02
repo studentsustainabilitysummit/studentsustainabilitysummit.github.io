@@ -11,15 +11,11 @@ This is a student-led project exposing students from all backgrounds to sustaina
 
 ## Continued development
 
-- Description for desktop
-- Goals for desktop
+- CTA banner
+- No scroll on mobile while menu is displayed
 - Footer
 - Sticky navigation
 
-## Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- ...
 
 
 
