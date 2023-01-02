@@ -1,4 +1,4 @@
-.goals{
+.volunteer{
     background-color: $lightgray;
     color: $green;
 
@@ -18,11 +18,16 @@
             font-size: 1.25rem;
         }
     
-        ol{
+        p{
             margin-top: 0px;
-            text-align: left;
-            padding-left: auto;
-            padding-right: auto;
+        }
+
+        a{
+           color: $green;
+        &:hover{
+            color: $orange;
+            //background-color : $orange;
+    }
         }
 
         @include breakpoint-up(large){
@@ -30,10 +35,6 @@
             order: 2;
             text-align: left;
             margin-left: 5.3125rem;
-
-            ol{
-                padding-left: 0.9375rem;
-            }
         }
 
     }
@@ -50,7 +51,4 @@
             margin-right: 5.3125rem;
         }
     }
-   
-
-
 }
