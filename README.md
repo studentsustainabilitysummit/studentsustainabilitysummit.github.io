@@ -12,6 +12,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development
 
 - CTA banner
+- Center map
 - No scroll on mobile while menu is displayed
 - Footer
 - Sticky navigation
