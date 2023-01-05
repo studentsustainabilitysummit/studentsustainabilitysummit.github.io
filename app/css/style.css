@@ -480,4 +480,35 @@ button:hover, .button:hover {
   }
 }
 
+.ctabanner {
+  background-color: #c2e7b1;
+}
+@media (min-width: 64em) {
+  .ctabanner .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.ctabanner__text h2 {
+  color: black;
+  font-weight: 300;
+}
+@media (min-width: 64em) {
+  .ctabanner__text {
+    flex: 3;
+    order: 1;
+    text-align: left;
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 64em) {
+  .ctabanner__buttons {
+    flex: 2;
+    order: 2;
+  }
+  .ctabanner__buttons .button:not(:last-child) {
+    margin-right: 2.8125rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
