@@ -1,0 +1,57 @@
+.hero{
+    background-color: $lightgreen;
+    
+    
+
+    &__text{
+        text-align: center;
+        
+        h1{ 
+            font-weight: 700;
+            font-size: 2.31rem;
+            line-height: 1;
+            text-shadow: 0rem 0.125rem 0.125rem $gray;
+            margin-top:0px;
+            margin-bottom: 0.625rem;
+
+            @include breakpoint-up(large){
+                font-size: 4.6875rem;
+                text-shadow: 0rem 0.25rem 0.3125rem $gray;
+            }
+        }
+        h2{
+            color: $black;
+            font-weight: 400;
+            font-size: 0.75rem;
+            margin-top: 0px;
+            margin-bottom: 0.25rem;
+
+            @include breakpoint-up(medium){
+                font-size: 1.125rem;
+            }
+
+            @include breakpoint-up(large){
+                font-size: 1.171875rem;
+            }
+        }
+    }
+    
+}
+
+/**May be useful
+------For logos at the top----------
+&__logos{
+        display: block;
+        padding: 0;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+----------------------
+
+**/

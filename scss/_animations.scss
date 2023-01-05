@@ -1,0 +1,74 @@
+
+//these are instructions to animate the hamburger menu
+.open{
+    .header__togglebrgr{
+        > span:first-child{
+            transform: rotate(45deg);
+            background-color: $orange;
+        }
+        > span:nth-child(2){
+            opacity: 0;
+        }
+        > span:last-child{
+            transform: rotate(-45deg);
+            background-color: $orange;
+        }
+    }
+}
+
+//these are instructions to make overlay appear/disappear along with hamburger menu
+
+.fade{
+    visibility: hidden;
+}
+
+@keyframes fade-in {
+    from{
+        visibility: hidden;
+        opacity: 0;
+    }
+    1%{ //This is here so we can animate how fast it fades in
+        visibility: visible;
+        opacity: 0;
+    }
+    to{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.fade-in{
+    animation: fade-in 300ms ease-in-out forwards; //forwards is to make it stay
+}
+
+@keyframes fade-out {
+    from{
+        visibility: visible;
+        opacity: 1;
+    }
+    99%{ //This is here so we can animate how fast it fades in
+        visibility: visible;
+        opacity: 0;
+    }
+    to{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+.fade-out{
+    animation: fade-out 300ms ease-in-out forwards; //forwards is to make it stay
+}
+
+//instructions for navigation to stick to top of the screen
+.stick-to-top{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.container{
+    padding: 16px;
+}
+
+.sticky + .container {
+    padding-top: 60px;
+  }

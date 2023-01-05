@@ -1,0 +1,56 @@
+.goals{
+    background-color: $lightgray;
+    color: $green;
+
+    .container{ //this is so we can use flexbox for desktop version
+        @include breakpoint-up(large){
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__text{
+
+        h4{
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+        }
+    
+        ol{
+            margin-top: 0px;
+            text-align: left;
+            padding-left: auto;
+            padding-right: auto;
+        }
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 2;
+            text-align: left;
+            margin-left: 5.3125rem;
+
+            ol{
+                padding-left: 0.9375rem;
+            }
+        }
+
+    }
+
+    &__image{  
+        img{
+            min-height: 15.625rem;
+            max-height: 21.875rem;
+        }
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 1;
+            margin-right: 5.3125rem;
+        }
+    }
+   
+
+
+}

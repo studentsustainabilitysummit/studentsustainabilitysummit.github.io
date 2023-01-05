@@ -1,0 +1,108 @@
+//html/body/flexbox/cssgrid goes here
+
+html{
+    font-size: 100%; //allows the user to control the zoom level
+    box-sizing: border-box; //includes padding to elements in the final width
+}
+
+*, *::before, *::after{
+    box-sizing: inherit; //allows elements to inherit box-sizing
+}
+
+
+body{
+    //spacing
+    margin:0;
+    padding: 0;
+    //font attributes
+    font-family: 'League Spartan', sans-serif;
+    font-size: $large; //18px
+    font-weight: 300;
+    color: $blue;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+
+a, a:visited, a:hover{
+    text-decoration: none; //removes line underneath link
+}
+
+button,.button{
+    display: inline-block;
+    padding: $med $large; //18px,33px size of button
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: $blue;
+    color: $white;
+    font-weight: 400;
+    transition: background-color 300ms ease-in-out;
+
+
+    &:hover{
+        background-color : $orange;
+    }
+}
+
+//flexbox for menu
+.flex{
+    display: flex;
+
+    &-jc-sb{
+        justify-content: space-between;
+    }
+
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-ai-c{
+        align-items: center;
+    }
+}
+
+.container{
+    //helper classes for consistent padding of sections
+    &__p-all{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    &__py{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+    &__px{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    &__pb{
+        padding-top: 0px;
+        padding-bottom: 3.125rem;
+    }
+}
+
+//visibility on diferent devices
+.hide-for-mobile{
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop{
+    @include breakpoint-up(large){
+        display: none;
+    }
+}
+
+
+
+/*May be useful
+//no-scroll when mobile navigation is open
+    &.no-scroll{
+        overflow: hidden;
+    }
+*/

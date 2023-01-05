@@ -1,0 +1,51 @@
+.description{
+
+    .container{ //this is so we can use flexbox for desktop version
+        @include breakpoint-up(large){
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    &__text{
+        h3{
+            font-weight: 400;
+            font-size: 1.25rem;
+            margin-top: 0px;
+        }
+
+        p{
+        margin-top: 0px;
+        }
+
+        @include breakpoint-up(large){
+            //display: flex;
+            flex: 1;
+            order: 2;
+            text-align: left;
+            margin-right: 5.3125rem;
+        }
+
+    }
+    
+    &__image{
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 1;
+            margin-left: 5.3125rem;
+
+            img{
+                min-height: 12.5rem;
+                max-height: 15.625rem;
+            }
+        }
+
+        @include breakpoint-down(medium){
+            img{
+                min-height: 6.875rem;
+                max-height: 10rem;
+            }
+        }
+    }
+    
+}
