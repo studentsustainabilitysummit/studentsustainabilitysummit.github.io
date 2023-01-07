@@ -23,15 +23,15 @@
     }
 
     &__buttons{
+        .button{
+            &:not(:last-child){
+                margin-right: 2.8125rem;
+            }
+        }
+
         @include breakpoint-up(large){
             flex: 2;
             order: 2;
-
-            .button{
-                &:not(:last-child){
-                    margin-right: 2.8125rem;
-                }
-            }
         }
     }
 }

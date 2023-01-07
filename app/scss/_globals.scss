@@ -24,6 +24,28 @@ body{
 
 }
 
+footer{
+    padding: 30px;
+
+    a, a:visited, a:hover{
+        padding: 1.25rem;
+        color: $blue;
+    }
+
+    p{
+        color: $black;
+    }
+
+    img{
+        width: 2.5rem;
+
+        &:not(:last-child){
+            margin-right: 0.625rem;
+        }
+    }
+
+}
+
 
 a, a:visited, a:hover{
     text-decoration: none; //removes line underneath link

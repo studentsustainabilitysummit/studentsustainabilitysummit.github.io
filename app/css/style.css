@@ -86,6 +86,23 @@ body {
   text-align: center;
 }
 
+footer {
+  padding: 30px;
+}
+footer a, footer a:visited, footer a:hover {
+  padding: 1.25rem;
+  color: #04a7e7;
+}
+footer p {
+  color: black;
+}
+footer img {
+  width: 2.5rem;
+}
+footer img:not(:last-child) {
+  margin-right: 0.625rem;
+}
+
 a, a:visited, a:hover {
   text-decoration: none;
 }
@@ -501,13 +518,13 @@ button:hover, .button:hover {
     margin-left: 3rem;
   }
 }
+.ctabanner__buttons .button:not(:last-child) {
+  margin-right: 2.8125rem;
+}
 @media (min-width: 64em) {
   .ctabanner__buttons {
     flex: 2;
     order: 2;
-  }
-  .ctabanner__buttons .button:not(:last-child) {
-    margin-right: 2.8125rem;
   }
 }
 
