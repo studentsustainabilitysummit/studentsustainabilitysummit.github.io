@@ -29,11 +29,15 @@
     }
 
     &__map{
+        img{
+            min-height: 15.625rem;
+            max-height: 21.875rem;
+        }
+
         @include breakpoint-up(large){
             flex: 1;
             order: 1;
-            margin-left: 5.3125rem;
-            //padding-right: 10.3125rem;
+            margin-right: 5.3125rem;
         }
     }
 

@@ -285,6 +285,33 @@ button:hover, .button:hover {
 .hero {
   background-color: #c2e7b1;
 }
+@media (min-width: 64em) {
+  .hero .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.hero__in-person {
+  background-color: white;
+  border-radius: 0.625rem;
+}
+@media (min-width: 64em) {
+  .hero__in-person {
+    flex: 1;
+    order: 1;
+    margin-right: 10px;
+  }
+}
+.hero__virtual {
+  background-color: white;
+  border-radius: 0.625rem;
+}
+@media (min-width: 64em) {
+  .hero__virtual {
+    flex: 1;
+    order: 2;
+  }
+}
 .hero__text {
   text-align: center;
 }
@@ -292,32 +319,71 @@ button:hover, .button:hover {
   font-weight: 700;
   font-size: 2.31rem;
   line-height: 1;
-  text-shadow: 0rem 0.125rem 0.125rem #9698a6;
   margin-top: 0px;
   margin-bottom: 0.625rem;
 }
 @media (min-width: 64em) {
   .hero__text h1 {
     font-size: 4.6875rem;
-    text-shadow: 0rem 0.25rem 0.3125rem #9698a6;
   }
 }
 .hero__text h2 {
   color: black;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 1.4375rem;
   margin-top: 0px;
   margin-bottom: 0.25rem;
 }
 @media (min-width: 40em) {
   .hero__text h2 {
-    font-size: 1.125rem;
+    font-size: 2.0625rem;
   }
 }
 @media (min-width: 64em) {
   .hero__text h2 {
+    font-size: 2.0625rem;
+  }
+}
+.hero__text h3 {
+  color: black;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-top: 0px;
+  margin-bottom: 0.25rem;
+}
+@media (min-width: 40em) {
+  .hero__text h3 {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 64em) {
+  .hero__text h3 {
     font-size: 1.171875rem;
   }
+}
+.hero__text h4 {
+  font-weight: 400;
+  font-size: 1.5625rem;
+  margin-top: 10px;
+  margin-bottom: 0.25rem;
+}
+@media (min-width: 40em) {
+  .hero__text h4 {
+    font-size: 1.5625rem;
+  }
+}
+@media (min-width: 64em) {
+  .hero__text h4 {
+    font-size: 1.5625rem;
+  }
+}
+.hero__text p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hero__learn {
+  text-decoration: underline;
+  color: #04a7e7;
 }
 
 /**May be useful
@@ -345,7 +411,7 @@ button:hover, .button:hover {
 }
 .description__text h3 {
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.875rem;
   margin-top: 0px;
 }
 .description__text p {
@@ -355,8 +421,7 @@ button:hover, .button:hover {
   .description__text {
     flex: 1;
     order: 2;
-    text-align: left;
-    margin-right: 5.3125rem;
+    text-align: center;
   }
 }
 @media (min-width: 64em) {
@@ -444,11 +509,15 @@ button:hover, .button:hover {
     margin-right: 5.3125rem;
   }
 }
+.welcome__map img {
+  min-height: 15.625rem;
+  max-height: 21.875rem;
+}
 @media (min-width: 64em) {
   .welcome__map {
     flex: 1;
     order: 1;
-    margin-left: 5.3125rem;
+    margin-right: 5.3125rem;
   }
 }
 
@@ -472,7 +541,8 @@ button:hover, .button:hover {
   margin-top: 0px;
 }
 .volunteer__text a {
-  color: #6cc743;
+  color: #04a7e7;
+  text-decoration: underline;
 }
 .volunteer__text a:hover {
   color: #eea22f;

@@ -23,7 +23,8 @@
         }
 
         a{
-           color: $green;
+           color: $blue;
+           text-decoration: underline;
         &:hover{
             color: $orange;
             //background-color : $orange;
