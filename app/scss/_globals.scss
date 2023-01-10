@@ -85,17 +85,24 @@ button,.button{
     }
 }
 
+details{
+    text-align: left;
+}
+summary{
+    text-align: left;
+}
+
 .container{
     //helper classes for consistent padding of sections
     &__p-all{
-        padding-top: 3.125rem;
-        padding-bottom: 3.125rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
     &__py{
-        padding-top: 3.125rem;
-        padding-bottom: 3.125rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     &__px{
         padding-left: 1rem;
@@ -103,7 +110,7 @@ button,.button{
     }
     &__pb{
         padding-top: 0px;
-        padding-bottom: 3.125rem;
+        padding-bottom: 3rem;
     }
 }
 

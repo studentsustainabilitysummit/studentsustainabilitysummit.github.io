@@ -1,0 +1,30 @@
+.qanda{
+    
+    &__details{
+        text-align: left;
+    }
+     
+    h2{
+        margin-top: 7px;
+        font-weight: 700;
+        font-size: 1.875rem;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    p{
+    margin-top: 0px;
+    //margin-bottom: 0px;
+    //padding-bottom: 0px;
+    color: $green;
+    //text-align: left;
+    }
+
+    @include breakpoint-up(large){
+        //display: flex;
+        flex: 1;
+        order: 2;
+        text-align: left;
+        //margin-right: 5.3125rem;
+    }
+}

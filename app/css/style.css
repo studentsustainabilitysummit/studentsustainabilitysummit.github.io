@@ -135,15 +135,23 @@ button:hover, .button:hover {
   align-items: center;
 }
 
+details {
+  text-align: left;
+}
+
+summary {
+  text-align: left;
+}
+
 .container__p-all {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 .container__py {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .container__px {
   padding-left: 1rem;
@@ -151,7 +159,7 @@ button:hover, .button:hover {
 }
 .container__pb {
   padding-top: 0px;
-  padding-bottom: 3.125rem;
+  padding-bottom: 3rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -595,6 +603,28 @@ button:hover, .button:hover {
   .ctabanner__buttons {
     flex: 2;
     order: 2;
+  }
+}
+
+.qanda__details {
+  text-align: left;
+}
+.qanda h2 {
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding-top: 0px;
+  text-align: center;
+}
+.qanda p {
+  margin-top: 0px;
+  color: #6cc743;
+}
+@media (min-width: 64em) {
+  .qanda {
+    flex: 1;
+    order: 2;
+    text-align: left;
   }
 }
 
