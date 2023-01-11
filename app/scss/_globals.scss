@@ -85,12 +85,6 @@ button,.button{
     }
 }
 
-details{
-    text-align: left;
-}
-summary{
-    text-align: left;
-}
 
 .container{
     //helper classes for consistent padding of sections
@@ -111,6 +105,10 @@ summary{
     &__pb{
         padding-top: 0px;
         padding-bottom: 3rem;
+    }
+    &__pt{
+        padding-top: 3rem;
+        padding-bottom: 0px;
     }
 }
 

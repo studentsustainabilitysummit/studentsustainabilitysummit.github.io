@@ -1,0 +1,73 @@
+.attendee{
+    color: $green;
+
+    .container{
+        padding-top: 10px;
+        @include breakpoint-up(large){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+
+    details{
+        text-align: left;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    h3{
+        text-decoration: underline;
+    }
+
+    h4{
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        //margin-left: 5px;
+        font-weight: 400;
+    }
+
+    h5{ 
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 5px;
+        font-weight: 400;
+    }
+
+    &__in-person{
+        color: $darkgreen;
+        background-color: $lightgray;
+        border-radius: 0.625rem;
+
+
+        @include breakpoint-up(large){
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            //margin-right: 10px ;
+        }
+    }
+
+    &__virtual{
+        color: $white;
+        background-color: $darkgreen;
+        border-radius: 0.625rem;
+        
+
+        @include breakpoint-up(large){
+            margin-top: -25px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            //margin-right: 10px ;
+        }
+    }
+
+    
+}

@@ -1,0 +1,94 @@
+.format{
+    color: $green;
+    .container{
+        padding-top: 10px;
+        @include breakpoint-up(large){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+
+    hr{
+        border-top: 3px dashed;
+    }
+
+    ul{
+        margin-top: 0px;
+        text-align: left;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    p{
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem; 
+    }
+
+    h4,h5{
+        text-align: left;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+
+    .button{
+        background-color: $green;
+    }
+
+    
+
+
+    &__in-person{
+        color: $darkgreen;
+        background-color: $lightgray;
+        border-radius: 0.625rem;
+
+        a{
+            color: $darkgreen;
+            text-decoration: underline;
+            text-align: left;
+            display: flex;
+            justify-content: left;
+            margin-left: 5px;
+        }
+
+        @include breakpoint-up(large){
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            //margin-right: 10px ;
+        }
+    }
+
+    &__virtual{
+        color: $white;
+        background-color: $darkgreen;
+        border-radius: 0.625rem;
+        
+        a{
+            color: $white;
+            text-decoration: underline;
+            text-align: left;
+            display: flex;
+            justify-content: left;
+            margin-left: 5px;
+        }
+
+        @include breakpoint-up(large){
+            margin-top: -98px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            //margin-right: 10px ;
+        }
+    }
+
+
+}
