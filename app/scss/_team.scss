@@ -1,0 +1,66 @@
+.team{
+
+    h2{
+        color: $green;
+        margin-bottom: 0px;
+    }
+    .container{
+        //padding-top: 10px;
+        @include breakpoint-up(large){
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+
+    img{
+        height: 14.375rem;
+        width: 14.375rem;
+
+    }
+
+    .photo{
+        position: relative;
+        display: inline-block;
+        
+        .photo-top{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        &:hover .photo-top{
+            display: inline-block;
+        }
+
+    }
+
+   
+
+    &__member{
+        
+        background-color: $verylightgray;
+        padding-top: 1.5625rem;
+        margin-top: 0.625rem;
+        
+
+        h3,h4,p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        h4{
+            font-weight: 400;
+        }
+
+        a, a:visited, a:hover{
+            padding: 0.5rem;
+            color: $blue;
+        }
+        
+    }
+}

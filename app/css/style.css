@@ -208,6 +208,7 @@ button:hover, .button:hover {
   bottom: 0px;
   right: 0px;
   left: 0px;
+  z-index: 98;
 }
 .header__menumobile {
   position: absolute;
@@ -217,6 +218,7 @@ button:hover, .button:hover {
   margin: 0px 2rem;
   padding: 1.625rem;
   margin-top: 10px;
+  z-index: 99;
 }
 .header__menumobile a {
   display: block;
@@ -646,6 +648,7 @@ button:hover, .button:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
+    gap: 1rem;
   }
 }
 .present h3 {
@@ -899,6 +902,54 @@ button:hover, .button:hover {
     grid-row-start: 1;
     grid-row-end: 2;
   }
+}
+
+.team h2 {
+  color: #6cc743;
+  margin-bottom: 0px;
+}
+@media (min-width: 64em) {
+  .team .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 1em;
+  }
+}
+.team img {
+  height: 14.375rem;
+  width: 14.375rem;
+}
+.team .photo {
+  position: relative;
+  display: inline-block;
+}
+.team .photo .photo-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.team .photo:hover .photo-top {
+  display: inline-block;
+}
+.team__member {
+  background-color: #fafafa;
+  padding-top: 1.5625rem;
+  margin-top: 0.625rem;
+}
+.team__member h3, .team__member h4, .team__member p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.team__member h4 {
+  font-weight: 400;
+}
+.team__member a, .team__member a:visited, .team__member a:hover {
+  padding: 0.5rem;
+  color: #04a7e7;
 }
 
 /*# sourceMappingURL=style.css.map */

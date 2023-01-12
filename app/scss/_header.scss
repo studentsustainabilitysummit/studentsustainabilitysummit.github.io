@@ -48,6 +48,7 @@
         bottom: 0px;
         right: 0px;
         left: 0px;
+        z-index: 98;
     }
 
     
@@ -60,6 +61,7 @@
         margin: 0px 2rem;
         padding: 1.625rem;
         margin-top: 10px;
+        z-index: 99;
 
         a{  
             display: block;
