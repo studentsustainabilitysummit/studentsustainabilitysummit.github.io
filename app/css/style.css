@@ -172,7 +172,7 @@ button:hover, .button:hover {
 
 /* no-scroll when mobile navigation is open */
 .no-scroll{
-    position: fixed;
+    overflow: hidden;
 }
 
 .header nav {
