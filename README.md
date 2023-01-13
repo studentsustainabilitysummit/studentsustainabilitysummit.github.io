@@ -13,6 +13,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development
 
 - Center map on mobile view
+- No scroll on mobile while menu is displayed
 - Sticky navigation
 - change font of hero to Shirkhand
 - Change map to STAMP UMD

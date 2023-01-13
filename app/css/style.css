@@ -170,11 +170,12 @@ button:hover, .button:hover {
   }
 }
 
-/* no-scroll when mobile navigation is open */
-.no-scroll{
-    overflow: hidden;
-}
-
+/*May be useful
+//no-scroll when mobile navigation is open
+    &.no-scroll{
+        overflow: hidden;
+    }
+*/
 .header nav {
   background-color: white;
   position: relative;
