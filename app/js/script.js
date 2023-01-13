@@ -15,6 +15,7 @@ btnHambrgr.addEventListener('click', function(){
             element.classList.remove('fade-in');
             element.classList.add('fade-out');
         });
+        document.body.classList.toggle('no-scroll');
     }
     else{
         console.log('open hamburger');
@@ -25,6 +26,7 @@ btnHambrgr.addEventListener('click', function(){
             element.classList.remove('fade-out');
             element.classList.add('fade-in');
         });
+        document.body.classList.toggle('no-scroll');
     }
 
 });
