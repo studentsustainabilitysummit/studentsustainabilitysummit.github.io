@@ -1,6 +1,6 @@
 # Student Sustainability Summit (S^3) Website 2023
 
-This is a student-led project exposing students from all backgrounds to sustainability in different fields such as including technology, science, education, economics, policy, law, art, psychology, and more. This webste serves as a hub for registration links, schedule, contact information, and other relevant information.
+This is a student-led project exposing students from all backgrounds to sustainability in different fields such as including technology, science, education, economics, policy, law, art, psychology, and more. This website serves as a hub for registration links, schedule, contact information, and other relevant information.
 
 ## Built with
 - HTML
