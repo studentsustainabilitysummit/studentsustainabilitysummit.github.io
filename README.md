@@ -20,16 +20,13 @@ This is a student-led project exposing students from all backgrounds to sustaina
 - "when" and "where" to be bold and darker font color
 - remove link on "Zoom"
 - Change S-cube to S^3
-- Make Abstract deadline bigger and bold
 - increase subheading size and make them bold
 - Smaller width for paragraphs
 - change px to rem
 - Capitalize first letters of words for headings
-- Add facebook ink to the footer
+- Add facebook link to the footer
 - Highlight section on click of "learn more links
 - Add sponsors section 
-- convert flex to grid
-- Stack the blocks instead of doing side by side
 - Add margins to keep content from going off screen
 - Add dropdowns like those in attendees page for In-person and Virtual sections of presenters page
 - Add UI elements to make indicate that the streams can be expanded when they are clicked on in presenters page
