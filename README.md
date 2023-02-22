@@ -27,6 +27,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 - Add facebook link to the footer
 - Highlight section on click of "learn more links
 - Add sponsors section 
+- convert flex to grid on home page
 - Add margins to keep content from going off screen
 - Add dropdowns like those in attendees page for In-person and Virtual sections of presenters page
 - Add UI elements to make indicate that the streams can be expanded when they are clicked on in presenters page
