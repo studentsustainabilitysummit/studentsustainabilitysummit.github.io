@@ -3,6 +3,7 @@ const btnHambrgr = document.querySelector('#btnHambrgr');
 const header = document.querySelector('.header');
 const overlay = document.querySelector('.overlay');
 const fadeElems = document.querySelectorAll('.fade');
+const details = document.querySelectorAll("details");
 
 //To make mobile menu appear/disappear
 btnHambrgr.addEventListener('click', function(){
@@ -28,6 +29,19 @@ btnHambrgr.addEventListener('click', function(){
     }
 
 });
+
+//To only allow one summmary in details to be open at a time
+details.forEach((targetDetail) =>{
+    targetDetail.addEventListener("click", () =>{
+        details.forEach( (detail) => {
+            //close summary if it is not the current one
+            if (detail !== targetDetail){  
+                detail.removeAttribute("open");
+            }//end if
+        });//end inner for each
+    });//end targetDetail.addEventListener
+});
+
 
 /*May be Useful
 

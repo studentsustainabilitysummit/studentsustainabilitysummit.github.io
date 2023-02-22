@@ -27,4 +27,18 @@
         justify-content: left;
         margin-left: 0.625rem;
     }
+
+    @include breakpoint-up(large){
+        ul{
+            margin-left: 15.625rem;
+        }
+        p{
+            margin-left: 15.625rem;
+            margin-right: 15.625rem;
+        }
+        a{
+            margin-left: 15.625rem;
+        }
+
+    }
 }

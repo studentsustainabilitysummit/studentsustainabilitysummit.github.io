@@ -1,13 +1,14 @@
 .format{
     color: $green;
     .container{
-        padding-top: 10px;
+        //padding-top: 10px;
+        //padding-bottom: 30px;
         @include breakpoint-up(large){
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto auto;
             align-items: center;
-            gap: 1em;
+            gap: 15px;
         }
     }
 
@@ -40,8 +41,17 @@
         background-color: $green;
     }
 
-    
 
+    &__intro{
+
+        @include breakpoint-up(large){
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            //margin-right: 10px ;
+        }
+    }
 
     &__in-person{
         color: $darkgreen;
@@ -57,11 +67,12 @@
             margin-left: 5px;
         }
 
+
         @include breakpoint-up(large){
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 1;
-            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
             //margin-right: 10px ;
         }
     }
@@ -81,11 +92,10 @@
         }
 
         @include breakpoint-up(large){
-            margin-top: -98px;
             grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 2;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
             //margin-right: 10px ;
         }
     }
