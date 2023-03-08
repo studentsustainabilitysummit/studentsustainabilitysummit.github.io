@@ -1114,6 +1114,263 @@ button:hover, .button:hover {
 }
 /*Top Bubbles*/
 
+/*Long Bubbles*/
+.long_blue {
+  position: relative;
+  left: 0rem;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 12rem;
+  z-index: -100;
+  animation: animateLong 38s linear infinite;
+}
+
+.long_light {
+  position: relative;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin-right: 17rem;
+  z-index: -100;
+  animation: animateLong 25s linear infinite;
+}
+
+.long_green {
+  position: relative;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  z-index: -100;
+  margin-right: 35rem;
+  animation: animateLong 31s linear infinite;
+}
+
+.long_blue2 {
+  position: relative;
+  left: 0rem;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin-right: 20rem;
+  z-index: -100;
+  animation: animateLong 20s linear infinite;
+}
+
+.long_light2 {
+  position: relative;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin-right: 10rem;
+  z-index: -100;
+  animation: animateLong 45s linear infinite;
+}
+
+.long_green2 {
+  position: relative;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  z-index: -100;
+  margin-left: 10rem;
+  animation: animateLong 21s linear infinite;
+}
+/*Long Bubbles*/
+
+/*Medium Bubbles*/
+.med_blue {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 16rem;
+  z-index: -100;
+  animation: animateMed 38s linear infinite;
+}
+
+.med_light {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 17rem;
+  z-index: -100;
+  animation: animateMed 25s linear infinite;
+}
+
+.med_green {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  margin-right: 12rem;
+  animation: animateMed 31s linear infinite;
+}
+
+.med_blue2 {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 20rem;
+  z-index: -100;
+  animation: animateMed 20s linear infinite;
+}
+
+.med_light2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 10rem;
+  z-index: -100;
+  animation: animateMed 45s linear infinite;
+}
+
+.med_green2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed 21s linear infinite;
+}
+/*Medium Bubbles*/
+
+/*Tiny Bubbles*/
+.tiny_blue {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 16rem;
+  z-index: -100;
+  animation: animateTiny 38s linear infinite;
+}
+
+.tiny_light {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 17rem;
+  z-index: -100;
+  animation: animateTiny 25s linear infinite;
+}
+
+.tiny_green {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  margin-right: 12rem;
+  animation: animateTiny 31s linear infinite;
+}
+
+.tiny_blue2 {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 20rem;
+  z-index: -100;
+  animation: animateTiny 20s linear infinite;
+}
+
+.tiny_light2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 10rem;
+  z-index: -100;
+  animation: animateTiny 45s linear infinite;
+}
+
+.tiny_green2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateTiny 21s linear infinite;
+}
+/*Tiny Bubbles*/
+
+/*MTT Bubbles*/
+.mtt_blue {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 16rem;
+  z-index: -100;
+  animation: animateMTT 28s linear infinite;
+}
+
+.mtt_light {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 17rem;
+  z-index: -100;
+  animation: animateMTT 15s linear infinite;
+}
+
+.mtt_green {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  margin-right: 12rem;
+  animation: animateMTT 21s linear infinite;
+}
+
+.mtt_blue2 {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 20rem;
+  z-index: -100;
+  animation: animateMTT 10s linear infinite;
+}
+
+.mtt_light2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 10rem;
+  z-index: -100;
+  animation: animateMTT 35s linear infinite;
+}
+
+.mtt_green2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMTT 11s linear infinite;
+}
+/*MTT Bubbles*/
+
 @keyframes animate{
   0% {
     transform: translateY(60vh) scale(0);
@@ -1125,7 +1382,43 @@ button:hover, .button:hover {
 
 @keyframes animateTop{
   0% {
-    transform: translateY(35vh) scale(0);
+    transform: translateY(34vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(25);
+  }
+}
+
+@keyframes animateLong{
+  0% {
+    transform: translateY(160vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(120);
+  }
+}
+
+@keyframes animateMed{
+  0% {
+    transform: translateY(80vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(25);
+  }
+}
+
+@keyframes animateTiny{
+  0% {
+    transform: translateY(18vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(25);
+  }
+}
+
+@keyframes animateMTT{
+  0% {
+    transform: translateY(330vh) scale(0);
   }
   100%{
     transform: translateY(-10vh) scale(25);
