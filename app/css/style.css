@@ -58,6 +58,10 @@
   width: 100%;
 }
 
+p {
+  color: #000;
+}
+
 .container {
   padding: 16px;
 }
@@ -450,7 +454,8 @@ button:hover, .button:hover {
 
 .goals {
   background-color: whitesmoke;
-  color: #6cc743;
+  color: black;
+  z-index: -99;
 }
 @media (min-width: 64em) {
   .goals .container {
@@ -973,3 +978,78 @@ button:hover, .button:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* background image for homepage */
+
+
+.bubble_blue {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 16rem;
+  z-index: -100;
+  animation: animate 38s linear infinite;
+}
+
+.bubble_light {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 17rem;
+  z-index: -100;
+  animation: animate 25s linear infinite;
+}
+
+.bubble_green {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  margin-right: 12rem;
+  animation: animate 31s linear infinite;
+}
+
+.bubble_blue2 {
+  position: relative;
+  left: 0rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 20rem;
+  z-index: -100;
+  animation: animate 20s linear infinite;
+}
+
+.bubble_light2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-right: 10rem;
+  z-index: -100;
+  animation: animate 45s linear infinite;
+}
+
+.bubble_green2 {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animate 21s linear infinite;
+}
+
+@keyframes animate{
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(25);
+  }
+}
