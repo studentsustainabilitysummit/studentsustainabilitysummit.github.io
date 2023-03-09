@@ -1498,3 +1498,69 @@ button:hover, .button:hover {
     transform: translateY(-10vh) scale(25);
   }
 }
+
+/*Smaller devices*/
+@media (max-width: 600px) {
+  @keyframes animate{
+    0% {
+      transform: translateY(88vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+  
+  @keyframes animateTop{
+    0% {
+      transform: translateY(57vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+  
+  @keyframes animateLong{
+    0% {
+      transform: translateY(160vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(120);
+    }
+  }
+  
+  @keyframes animateMed{
+    0% {
+      transform: translateY(80vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+  
+  @keyframes animateMed2{
+    0% {
+      transform: translateY(110vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+  
+  @keyframes animateTiny{
+    0% {
+      transform: translateY(40vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+  
+  @keyframes animateMTT{
+    0% {
+      transform: translateY(970vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(25);
+    }
+  }
+}
