@@ -617,6 +617,7 @@ button:hover, .button:hover {
 .qanda__details {
   text-align: left;
 }
+
 .qanda h2 {
   margin-top: 7px;
   font-weight: 700;
@@ -630,7 +631,7 @@ button:hover, .button:hover {
 }
 .qanda p {
   margin-top: 0px;
-  color: #6cc743;
+  color: black;
 }
 @media (min-width: 64em) {
   .qanda {
