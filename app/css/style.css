@@ -644,7 +644,7 @@ button:hover, .button:hover {
 .present {
   color: #6cc743;
 }
-.present details {
+.details {
   text-align: left;
   cursor: pointer;
 }
@@ -992,7 +992,9 @@ button:hover, .button:hover {
 }
 
 /* background image for homepage */
-
+.background_image_container {
+  position: absolute;
+}
 
 .bubble_blue {
   position: relative;
@@ -1122,125 +1124,182 @@ button:hover, .button:hover {
 
 /*Long Bubbles*/
 .long_blue {
-  position: relative;
-  left: 0rem;
+  position: absolute;
+  left: 5rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
-  margin-left: 10rem;
-  margin-right: 12rem;
   z-index: -100;
-  animation: animateLong 38s linear infinite;
+  animation: animateLong 28s linear infinite;
 }
 
 .long_light {
-  position: relative;
+  position: absolute;
+  left: 20rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
-  margin-right: 17rem;
   z-index: -100;
-  animation: animateLong 25s linear infinite;
+  animation: animateLong 18s linear infinite;
 }
 
 .long_green {
-  position: relative;
+  position: absolute;
+  left: 35rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
   z-index: -100;
-  margin-right: 35rem;
-  animation: animateLong 31s linear infinite;
+  animation: animateLong 23s linear infinite;
 }
 
 .long_blue2 {
-  position: relative;
-  left: 0rem;
+  position: absolute;
+  left: 65rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
-  margin-right: 20rem;
   z-index: -100;
-  animation: animateLong 20s linear infinite;
+  animation: animateLong 13s linear infinite;
 }
 
 .long_light2 {
-  position: relative;
+  position: absolute;
+  left: 74rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
-  margin-right: 10rem;
   z-index: -100;
-  animation: animateLong 45s linear infinite;
+  animation: animateLong 30s linear infinite;
 }
 
 .long_green2 {
-  position: relative;
+  position: absolute;
+  left: 90rem;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
   z-index: -100;
-  margin-left: 10rem;
-  animation: animateLong 21s linear infinite;
+  animation: animateLong 15s linear infinite;
 }
 /*Long Bubbles*/
 
-/*Medium Bubbles*/
-.med_blue {
-  position: relative;
-  left: 0rem;
+/*Medium 2 Bubbles*/
+.med2_blue {
+  position: absolute;
+  left: 5rem;
   width: 0.5rem;
   height: 0.5rem;
   float: left;
-  margin-left: 10rem;
-  margin-right: 16rem;
+  z-index: -100;
+  animation: animateMed2 38s linear infinite;
+}
+
+.med2_light {
+  position: absolute;
+  left: 20rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed2 25s linear infinite;
+}
+
+.med2_green {
+  position: absolute;
+  left: 49rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed2 31s linear infinite;
+}
+
+.med2_blue2 {
+  position: absolute;
+  left: 69rem; 
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed2 20s linear infinite;
+}
+
+.med2_light2 {
+  position: absolute;
+  left: 80rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed2 45s linear infinite;
+}
+
+.med2_green2 {
+  position: absolute;
+  left: 92rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  z-index: -100;
+  animation: animateMed2 17s linear infinite;
+}
+/*Medium 2 Bubbles*/
+
+/*Medium Bubbles*/
+.med_blue {
+  position: absolute;
+  left: 5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
   z-index: -100;
   animation: animateMed 38s linear infinite;
 }
 
 .med_light {
-  position: relative;
+  position: absolute;
+  left: 20rem;
   width: 0.5rem;
   height: 0.5rem;
   float: left;
-  margin-right: 17rem;
   z-index: -100;
   animation: animateMed 25s linear infinite;
 }
 
 .med_green {
-  position: relative;
+  position: absolute;
+  left: 49rem;
   width: 0.5rem;
   height: 0.5rem;
   float: left;
   z-index: -100;
-  margin-right: 12rem;
   animation: animateMed 31s linear infinite;
 }
 
 .med_blue2 {
-  position: relative;
-  left: 0rem;
+  position: absolute;
+  left: 69rem; 
   width: 0.5rem;
   height: 0.5rem;
   float: left;
-  margin-right: 20rem;
   z-index: -100;
   animation: animateMed 20s linear infinite;
 }
 
 .med_light2 {
-  position: relative;
+  position: absolute;
+  left: 80rem;
   width: 0.5rem;
   height: 0.5rem;
   float: left;
-  margin-right: 10rem;
   z-index: -100;
   animation: animateMed 45s linear infinite;
 }
 
 .med_green2 {
-  position: relative;
+  position: absolute;
+  left: 92rem;
   width: 0.5rem;
   height: 0.5rem;
   float: left;
@@ -1407,6 +1466,15 @@ button:hover, .button:hover {
 @keyframes animateMed{
   0% {
     transform: translateY(80vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(25);
+  }
+}
+
+@keyframes animateMed2{
+  0% {
+    transform: translateY(110vh) scale(0);
   }
   100%{
     transform: translateY(-10vh) scale(25);
