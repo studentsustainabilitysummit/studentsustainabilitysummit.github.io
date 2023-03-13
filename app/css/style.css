@@ -989,11 +989,13 @@ button:hover, .button:hover {
 /*----Bold----*/
 .bolded {
   font-weight: bold;
+  color: white;
 }
 
 /*----general bubble class----*/
 .bubble {
   position: absolute;
+  display: block;
   width: 0.1rem;
   height: 0.1rem;
   float: left;
