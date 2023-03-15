@@ -1202,7 +1202,7 @@ button:hover, .button:hover {
 
 /*MTT Bubbles*/
 .bubble.mtt_blue {
-  left: 0vw;
+  left: 4vw;
   animation: animateMTT 28s linear infinite;
 }
 
@@ -1212,12 +1212,12 @@ button:hover, .button:hover {
 }
 
 .bubble.mtt_green {
-  left: 40vw;
+  left: 38vw;
   animation: animateMTT 21s linear infinite;
 }
 
 .bubble.mtt_blue2 {
-  left: 60vw;
+  left: 58vw;
   animation: animateMTT 10s linear infinite;
 }
 
@@ -1227,7 +1227,7 @@ button:hover, .button:hover {
 }
 
 .bubble.mtt_green2 {
-  left: 90vw;
+  left: 95vw;
   animation: animateMTT 11s linear infinite;
 }
 /*MTT Bubbles*/
@@ -1270,7 +1270,7 @@ button:hover, .button:hover {
 
 @keyframes animateMed2{
   0% {
-    transform: translateY(110vh) scale(0);
+    transform: translateY(190vh) scale(0);
   }
   100%{
     transform: translateY(-10vh) scale(120);
