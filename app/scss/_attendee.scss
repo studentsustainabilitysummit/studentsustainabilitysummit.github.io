@@ -40,6 +40,10 @@
     }
     
     &__intro{
+        p{
+            color: $black;
+        }
+        
         @include breakpoint-up(large){
             grid-column-start: 2;
             grid-column-end: 4;

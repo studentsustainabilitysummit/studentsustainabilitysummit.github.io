@@ -39,8 +39,6 @@
 
     }
 
-   
-
     &__member{
         
         background-color: $verylightgray;
@@ -51,6 +49,10 @@
         h3,h4,p{
             margin-top: 0px;
             margin-bottom: 0px;
+        }
+
+        p{
+            color: $black;
         }
 
         h4{

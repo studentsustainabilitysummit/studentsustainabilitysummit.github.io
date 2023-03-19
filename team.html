@@ -1,88 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <!--Google Analytics-->
+  <head>
+    <!--Google Analytics-->
     <!-- Google tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEPQ1CEF96">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EEPQ1CEF96"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-EEPQ1CEF96');
+      gtag("config", "G-EEPQ1CEF96");
     </script>
     <!--Character encoding system that allows ASCII text and international characters-->
-    <meta charset="UTF-8">
-    
+    <meta charset="UTF-8" />
+
     <!--Properly displays site properly based on user's device-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Favicon aka icon on the tab-->
-    <link rel="icon" type="image/png" sizes="48x48" href="./images/logo_s3.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="./images/logo_s3.png"
+    />
 
     <!--These are the font style-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!--Link to css file-->
     <link rel="stylesheet" href="./app/css/style.css">
+    <link rel="stylesheet" href="./app/css/style1.css">
     <title>S3 | The Team</title>
-    <meta name="description" content="Student Sustainability Summit team.">
-    <meta name="keywords" content="s3 team, sss team, student sustainability team, student sustainability summit team, student sustainability summit maryland team, student sustainability summit umd team, sss maryland team, sss umd team">
-
-</head>
-<body>
+    <meta name="description" content="Student Sustainability Summit team." />
+    <meta
+      name="keywords"
+      content="s3 team, sss team, student sustainability team, student sustainability summit team, student sustainability summit maryland team, student sustainability summit umd team, sss maryland team, sss umd team"
+    />
+  </head>
+  <body>
     <!--Header includes navigation for desktop and mobile-->
-    <header class = "header">
-        <nav class="flex flex-jc-sb flex-ai-c">
-            <!--References back to the home page-->
-            <a href="index.html" class="header__logo">
-                <img src="./images/logo_s3.png" alt="S^3"/>
-            </a>
-            
-            <!--Menu for the desktop version-->
-            <div class="header__links hide-for-mobile">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="presenters.html">Presenters</a>
-                <a href="attendees.html">Attendees</a>
-                <a href="schedule.html">Schedule</a>
-                <a href="faq.html">FAQ</a>
-                <a href="team.html">Meet the Team</a>         
-            </div>
+    <header class="header">
+      <nav class="flex flex-jc-sb flex-ai-c">
+        <!--References back to the home page-->
+        <a href="index.html" class="header__logo">
+          <img src="./images/logo_s3.png" alt="S^3" />
+        </a>
 
-            <!--Call to action button for desktop version-->
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2O7IDWX2ZrYQy5UmpQTb4sbJvovELRhOOFAfASa5gzkahDA/viewform" class="button hide-for-mobile">Register For Free</a>
+        <!--Menu for the desktop version-->
+        <div class="header__links hide-for-mobile">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="presenters.html">Presenters</a>
+          <a href="attendees.html">Attendees</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="faq.html">FAQ</a>
+          <a href="team.html">Meet the Team</a>
+        </div>
 
-            <!--Hamburger Menu for mobile version-->
-            <a id="btnHambrgr" href="#" class="header__togglebrgr hide-for-desktop">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </nav>
-        
-        <!--Overlay when mobile menu is selected-->
-        <div class="overlay fade hide-for-desktop"></div>
+        <!--Call to action button for desktop version-->
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc2O7IDWX2ZrYQy5UmpQTb4sbJvovELRhOOFAfASa5gzkahDA/viewform"
+          class="button hide-for-mobile"
+          >Register For Free</a
+        >
 
-        <!--Mobile menu after clicking hamburger-->
-        <div class="header__menumobile fade hide-for-desktop">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="presenters.html">Presenters</a>
-            <a href="attendees.html">Attendees</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="faq.html">FAQ</a>
-            <a href="team.html">Meet the Team</a>    
-        </div>    
+        <!--Hamburger Menu for mobile version-->
+        <a id="btnHambrgr" href="#" class="header__togglebrgr hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </nav>
+
+      <!--Overlay when mobile menu is selected-->
+      <div class="overlay fade hide-for-desktop"></div>
+
+      <!--Mobile menu after clicking hamburger-->
+      <div class="header__menumobile fade hide-for-desktop">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="presenters.html">Presenters</a>
+        <a href="attendees.html">Attendees</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="faq.html">FAQ</a>
+        <a href="team.html">Meet the Team</a>
+      </div>
     </header>
     <!--Hero includes UMD Logo, full name, dates, times, and location-->
     <section class="hero hero__text container__py">
-        <h1>
-            Student Sustainability Summit
-        </h1> 
-        <!--
+      <h1>Student Sustainability Summit</h1>
+      <!--
         <h2>
             Gear up for the 2023 sustainability summit
         </h2>
@@ -121,351 +138,617 @@
 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2O7IDWX2ZrYQy5UmpQTb4sbJvovELRhOOFAfASa5gzkahDA/viewform" class="button">Register Now</a>
         -->
-    </section> 
+    </section>
 
     <!--bubbles-->
-    <img src="./images/blue_bubble.png" class="bubble mtt_blue" alt="blue_bubble">
-    <img src="./images/light_bubble.png" class="bubble mtt_light" alt="light_bubble">
-    <img src="./images/green_bubble.png" class="bubble mtt_green" alt="green_bubble">
-    <img src="./images/blue_bubble.png" class="bubble mtt_blue2" alt="blue_bubble">
-    <img src="./images/light_bubble.png" class="bubble mtt_light2" alt="light_bubble">
-    <img src="./images/green_bubble.png" class="bubble mtt_green2" alt="green_bubble">
+    <img
+      src="./images/blue_bubble.png"
+      class="bubble mtt_blue"
+      alt="blue_bubble"
+    />
+    <img
+      src="./images/light_bubble.png"
+      class="bubble mtt_light"
+      alt="light_bubble"
+    />
+    <img
+      src="./images/green_bubble.png"
+      class="bubble mtt_green"
+      alt="green_bubble"
+    />
+    <img
+      src="./images/blue_bubble.png"
+      class="bubble mtt_blue2"
+      alt="blue_bubble"
+    />
+    <img
+      src="./images/light_bubble.png"
+      class="bubble mtt_light2"
+      alt="light_bubble"
+    />
+    <img
+      src="./images/green_bubble.png"
+      class="bubble mtt_green2"
+      alt="green_bubble"
+    />
     <!--bubbles-end-->
 
     <!--Meet the team-->
     <section class="team container__pb container__px">
-
-            <h2>
-                Meet The Team
-            </h2>
-            <div class="container">
-            <!--Ryan Kim-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Ryan1.png" alt="Ryan Kim headshot">
-                        <img  class = "photo-top" src="./images/headshots/Ryan2.png" alt="Kirby">
-                    </div>
-                    <h3>Ryan Kim</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Environmental Science and Policy</p>
-                    <!--<a href="#">LinkedIn</a>
+      <h2>Meet The Team</h2>
+      <div class="container">
+        <!--Ryan Kim-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Ryan1.png" alt="Ryan Kim headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Ryan2.png"
+              alt="Kirby"
+            />
+          </div>
+          <h3>Ryan Kim</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+          <!--<a href="#">LinkedIn</a>
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Vishal Sivasankar-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Vishal1.png" alt="Vishal headshot">
-                        <img  class = "photo-top" src="./images/headshots/Vishal2.png" alt="Jellyfish">
-                    </div>
-                    <h3>Vishal Sivasankar</h3>
-                    <h4>James Clark School University of Maryland College Park</h4>
-                    <p>Mechanical Engineering</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Vishal Sivasankar-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Vishal1.png" alt="Vishal headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Vishal2.png"
+              alt="Jellyfish"
+            />
+          </div>
+          <h3>Vishal Sivasankar</h3>
+          <h4>James Clark School University of Maryland College Park</h4>
+          <p>Mechanical Engineering</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Alana Ginsburg-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Alana1.png" alt="Alana headshot">
-                        <img  class = "photo-top" src="./images/headshots/Alana2.png" alt="Seal">
-                    </div>
-                    <h3>Alana Ginsburg</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Environmental Science and Policy</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Alana Ginsburg-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Alana1.png" alt="Alana headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Alana2.png"
+              alt="Seal"
+            />
+          </div>
+          <h3>Alana Ginsburg</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Dillon Walton-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Dillon1.png" alt="Dillon headshot">
-                        <img  class = "photo-top" src="./images/headshots/Dillon2.png" alt="Polar Bear">
-                    </div>
-                    <h3>Dillon Walton</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Physics</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Dillon Walton-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Dillon1.png" alt="Dillon headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Dillon2.png"
+              alt="Polar Bear"
+            />
+          </div>
+          <h3>Dillon Walton</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Physics</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Michael Yonker-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Michael1.png" alt="Michael headshot">
-                        <img  class = "photo-top" src="./images/headshots/Michael2.png" alt="Otter">
-                    </div>
-                    <h3>Michael Yonker</h3>
-                    <h4>University of Illonois Chicago</h4>
-                    <p>Civil Engineering</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Michael Yonker-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Michael1.png" alt="Michael headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Michael2.png"
+              alt="Otter"
+            />
+          </div>
+          <h3>Michael Yonker</h3>
+          <h4>University of Illonois Chicago</h4>
+          <p>Civil Engineering</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Maria Pasaylo-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/MariaP1.png" alt="MariaP headshot">
-                        <img  class = "photo-top" src="./images/headshots/MariaP2.png" alt="Malunggay">
-                    </div>
-                    <h3>Maria Pasaylo</h3>
-                    <h4>University of Florida</h4>
-                    <p>Computer Science</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Maria Pasaylo-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/MariaP1.png" alt="MariaP headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/MariaP2.png"
+              alt="Malunggay"
+            />
+          </div>
+          <h3>Maria Pasaylo</h3>
+          <h4>University of Florida</h4>
+          <p>Computer Science</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--MARIA UPDATE THE FOLLOWING-->
-            <!--Maria Costas Mastrogianis-->
-                 <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/MariaM1.png" alt="MariaM headshot">
-                        <img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Moss">
-                    </div>
-                    <h3>Maria Costas Mastrogianis</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Environmental Science and Policy</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--MARIA UPDATE THE FOLLOWING-->
+        <!--Maria Costas Mastrogianis-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/MariaM1.png" alt="MariaM headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/MariaM2.png"
+              alt="Moss"
+            />
+          </div>
+          <h3>Maria Costas Mastrogianis</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--C-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/C1.png" alt="C headshot">
-                        <img  class = "photo-top" src="./images/headshots/C2.png" alt="Bat">
-                    </div>
-                    <h3>C Macko</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Environmental Science and Policy & Dance</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--C-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/C1.png" alt="C headshot" />
+            <img class="photo-top" src="./images/headshots/C2.png" alt="Bat" />
+          </div>
+          <h3>C Macko</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy & Dance</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Mari Cruz-->
-            <div class="team__member">
-                <div class="photo">
-                    <img  src="./images/headshots/Mari1.png" alt="Mari headshot">
-                    <img  class = "photo-top" src="./images/headshots/Mari2.png" alt="Lion">
-                </div>
-                <h3>Mari Cruz</h3>
-                <h4>University of Maryland College Park</h4>
-                <p>Environmental Science and Policy</p>
-                <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Mari Cruz-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Mari1.png" alt="Mari headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Mari2.png"
+              alt="Lion"
+            />
+          </div>
+          <h3>Mari Cruz</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+          <!--<a href="#">LinkedIn</a>|
                 <a href="#">Email</a>|
                 <a href="#">Discord</a>-->
-            </div>
-            <!--Julia Tvedt-->
-            <div class="team__member">
-                <div class="photo">
-                    <img  src="./images/headshots/Julia1.png" alt="Julia headshot">
-                    <img  class = "photo-top" src="./images/headshots/Julia2.png" alt="Sheep">
-                </div>
-                <h3>Julia Tvedt</h3>
-                <h4>University of Florida</h4>
-                <p>Food Science</p>
-                <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Julia Tvedt-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Julia1.png" alt="Julia headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Julia2.png"
+              alt="Sheep"
+            />
+          </div>
+          <h3>Julia Tvedt</h3>
+          <h4>University of Florida</h4>
+          <p>Food Science</p>
+          <!--<a href="#">LinkedIn</a>|
                 <a href="#">Email</a>|
                 <a href="#">Discord</a>-->
-            </div>
-            <!--Richelle Moskvichev-->
-            <div class="team__member">
-                <div class="photo">
-                    <img  src="./images/headshots/Richelle1.png" alt="Richelle headshot">
-                    <img  class = "photo-top" src="./images/headshots/Richelle2.png" alt="Ohia Lehua Tree">
-                </div>
-                <h3>Richelle Moskvichev</h3>
-                <h4>University of Hawaii Manoa</h4>
-                <p>Physics and Computer Science</p>
-                <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Richelle Moskvichev-->
+        <div class="team__member">
+          <div class="photo">
+            <img
+              src="./images/headshots/Richelle1.png"
+              alt="Richelle headshot"
+            />
+            <img
+              class="photo-top"
+              src="./images/headshots/Richelle2.png"
+              alt="Ohia Lehua Tree"
+            />
+          </div>
+          <h3>Richelle Moskvichev</h3>
+          <h4>University of Hawaii Manoa</h4>
+          <p>Physics and Computer Science</p>
+          <!--<a href="#">LinkedIn</a>|
                 <a href="#">Email</a>|
                 <a href="#">Discord</a>-->
-            </div>
+        </div>
 
+        <!--Jacob Mupai-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Jacob2.png" alt="Jacob headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>Jacob Mupai</h3>
+          <h4>Salisbury University</h4>
+          <p>International Relations</p>
+          <!--<a href="#">LinkedIn</a>|
+                    <a href="#">Email</a>|
+                    <a href="#">Discord</a>-->
+        </div>
+        <!--Lizbet Herrera-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Lizbet2.png" alt="Lizbet headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>Lizbet Herrera</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Family Science</p>
+          <!--<a href="#">LinkedIn</a>|
+                    <a href="#">Email</a>|
+                    <a href="#">Discord</a>-->
+        </div>
+        <!--David Phan-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/David2.png" alt="David headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>David Phan</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Landscape Architecture & Architecture</p>
+          <!--<a href="#">LinkedIn</a>|
+                    <a href="#">Email</a>|
+                    <a href="#">Discord</a>-->
+        </div>
 
-            <!--Jacob Mupai-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Jacob2.png" alt="Jacob headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>Jacob Mupai</h3>
-                    <h4>Salisbury University</h4>
-                    <p>International Relations</p>
-                    <!--<a href="#">LinkedIn</a>|
+        <!--Kevin Lemus -->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Kevin2.png" alt="Kevin headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>Kevin Lemus</h3>
+          <h4>University of Maryland Baltimore County</h4>
+          <p>Information Systems</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--Lizbet Herrera-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Lizbet2.png" alt="Lizbet headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>Lizbet Herrera</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Family Science</p>
-                    <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Catalina Gibney-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Cat2.png" alt="Catalina headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>Catalina Gibney</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            <!--David Phan-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/David2.png" alt="David headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>David Phan</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Landscape Architecture & Architecture</p>
-                    <!--<a href="#">LinkedIn</a>|
-                    <a href="#">Email</a>|
-                    <a href="#">Discord</a>-->
-                </div>
-            
-            <!--Kevin Lemus -->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Kevin2.png" alt="Kevin headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>Kevin Lemus</h3>
-                    <h4>University of Maryland Baltimore County</h4>
-                    <p>Information Systems</p>
-                    <!--<a href="#">LinkedIn</a>|
-                    <a href="#">Email</a>|
-                    <a href="#">Discord</a>-->
-                </div>
-            <!--Catalina Gibney-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/Cat2.png" alt="Catalina headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>Catalina Gibney</h3>
-                    <h4>University of Maryland College Park</h4>
-                    <p>Environmental Science and Policy</p>
-                    <!--<a href="#">LinkedIn</a>|
-                    <a href="#">Email</a>|
-                    <a href="#">Discord</a>-->
-                </div>
-            <!--Griffin Cargnel-->
-            <div class="team__member">
-                <div class="photo">
-                    <img  src="./images/headshots/Griffin1.png" alt="Griffin headshot">
-                    <img  class = "photo-top" src="./images/headshots/Griffin2.png" alt="Griffin's Dog">
-                </div>
-                <h3>Griffin Cargnel</h3>
-                <h4>University of Maryland College Park</h4>
-                <p>Government & Politics and Public Policy</p>
-                <!--<a href="#">LinkedIn</a>|
+        </div>
+        <!--Griffin Cargnel-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Griffin1.png" alt="Griffin headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Griffin2.png"
+              alt="Griffin's Dog"
+            />
+          </div>
+          <h3>Griffin Cargnel</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Government & Politics and Public Policy</p>
+          <!--<a href="#">LinkedIn</a>|
                 <a href="#">Email</a>|
                 <a href="#">Discord</a>-->
-            </div>
-            <!--Edson Cortes-->
-            <div class="team__member">
-                <div class="photo">
-                    <img src="./images/headshots/Edson1.png" alt="Edson headshot">
-                    <img class="photo-top" src="./images/headshots/Edson2.png" alt="Churro">
-                </div>
-                <h3>Edson Cortes</h3>
-                <h4>University of Maryland College Park</h4>
-                <p>Computer Science</p>
-            </div>
+        </div>
+        <!--Edson Cortes-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Edson1.png" alt="Edson headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Edson2.png"
+              alt="Churro"
+            />
+          </div>
+          <h3>Edson Cortes</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Computer Science</p>
+        </div>
+        <!--Brook Lesikar-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Brook2.png" alt="Shark" />
+            <!-- <img class="photo-top" src="./images/headshots/Edson2.png" alt="Churro"> -->
+          </div>
+          <h3>Brook Lesikar</h3>
+          <h4>Tufts University</h4>
+          <p>Environmental Studies and Studio Art</p>
+        </div>
+        <!--Anushka-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Anushka2.png" alt="Cat" />
+            <!-- <img class="photo-top" src="./images/headshots/Edson2.png" alt="Churro"> -->
+          </div>
+          <h3>Anushka</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Technology and Sustainability</p>
+        </div>
+        <!--Renee-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Renee2.png" alt="Cat" />
+            <!-- <img class="photo-top" src="./images/headshots/Edson2.png" alt="Churro"> -->
+          </div>
+          <h3>Renee</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Bioengineering</p>
+        </div>
+        <!--Meara-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Meara1.png" alt="Penguin" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Meara2.png"
+              alt="Lily"
+            />
+          </div>
+          <h3>Meara</h3>
+          <h4>University of the Philippines Diliman</h4>
+          <p>Physics BS and Environmental Science MS</p>
+        </div>
+        <!--Sam Briggs-->
+        <div class="team__member">
+          <div class="photo">
+            <img
+              src="./images/headshots/Samantha1.png"
+              alt="Samantha headshot"
+            />
+            <img
+              class="photo-top"
+              src="./images/headshots/Samantha2.png"
+              alt="Sea Turtle"
+            />
+          </div>
+          <h3>Sam Briggs</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>International Relations</p>
+        </div>
+        <!--Clem-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/filler.png" alt="Filter" />
+            <!-- <img
+              class="photo-top"
+              src="./images/headshots/Samantha2.png"
+              alt="Sea Turtle"
+            /> -->
+          </div>
+          <h3>Clem</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+        </div>
+        <!--Malhar Mandsaurwale-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Malhar1.png" alt="Wolf" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Malhar2.png"
+              alt="Orchid"
+            />
+          </div>
+          <h3>Malhar Mandsaurwale</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Architecture</p>
+        </div>
+        <!--Peggy Mothershed-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Peggy1.png" alt="Peggy headshot" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Peggy2.png"
+              alt="Tiger"
+            />
+          </div>
+          <h3>Peggy Mothershed</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy - Politics and Policy</p>
+        </div>
+        <!--Lore-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Lore2.png" alt="Dog" />
+            <!-- <img
+              class="photo-top"
+              src="./images/headshots/Peggy2.png"
+              alt="Tiger"
+            /> -->
+          </div>
+          <h3>Lore</h3>
+          <h4>University College Dublin</h4>
+          <p>City Planning and Environmental Policy</p>
+        </div>
+        <!--Supriya-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Supriya2.png" alt="Lotus" />
+            <!-- <img
+                        class="photo-top"
+                        src="./images/headshots/Peggy2.png"
+                        alt="Tiger"
+                      /> -->
+          </div>
+          <h3>Supriya</h3>
+          <h4>Delhi University</h4>
+          <p>History</p>
+        </div>
+        <!--Shanvi Thakre-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/filler.png" alt="Filter" />
+            <!-- <img
+                                  class="photo-top"
+                                  src="./images/headshots/Peggy2.png"
+                                  alt="Tiger"
+                                /> -->
+          </div>
+          <h3>Shanvi Thakre</h3>
+          <h4>Delhi University</h4>
+          <p>History</p>
+        </div>
+        <!--Zoe-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Zoe1.png" alt="Giraffe" />
+            <img
+              class="photo-top"
+              src="./images/headshots/Zoe2.png"
+              alt="Cactus"
+            />
+          </div>
+          <h3>Zoe</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Environmental Science and Policy</p>
+        </div>
+        <!--Alex Marek-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Alex2.png" alt="White Shark" />
+            <!-- <img
+              class="photo-top"
+              src="./images/headshots/Zoe2.png"
+              alt="Cactus"
+            /> -->
+          </div>
+          <h3>Alex Marek</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Journalism</p>
+        </div>
+        <!--Aagaash-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Aagaash2.png" alt="Shark" />
+            <!-- <img
+                        class="photo-top"
+                        src="./images/headshots/Zoe2.png"
+                        alt="Cactus"
+                      /> -->
+          </div>
+          <h3>Aagaash</h3>
+          <h4>University of Maryland College Park</h4>
+          <p>Marketing</p>
+        </div>
+        <!--Ruby-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/Ruby2.png" alt="Desert Rain Frog" />
+            <!-- <img
+                                  class="photo-top"
+                                  src="./images/headshots/Zoe2.png"
+                                  alt="Cactus"
+                                /> -->
+          </div>
+          <h3>Ruby</h3>
+          <h4>Salisbury University</h4>
+          <p>Undecided</p>
+        </div>
 
-            <!--Filler cta-->
-                <div class="team__member">
-                    <div class="photo">
-                        <img  src="./images/headshots/filler.png" alt="filler headshot">
-                        <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
-                    </div>
-                    <h3>You can be part of the team!</h3>
-                    <h4>Reach out to us at any of our socials!</h4>
-                    <p>Send your volunteer interests & fave plant/animal.</p>
-                    <!--<a href="#">LinkedIn</a>|
+        <!--Filler cta-->
+        <div class="team__member">
+          <div class="photo">
+            <img src="./images/headshots/filler.png" alt="filler headshot" />
+            <!--<img  class = "photo-top" src="./images/headshots/MariaM2.png" alt="Malunggay">-->
+          </div>
+          <h3>You can be part of the team!</h3>
+          <h4>Reach out to us at any of our socials!</h4>
+          <p>Send your volunteer interests & fave plant/animal.</p>
+          <!--<a href="#">LinkedIn</a>|
                     <a href="#">Email</a>|
                     <a href="#">Discord</a>-->
-                </div>
-            </div>
-
-
-
+        </div>
+      </div>
     </section>
 
     <!--Volunteer search with decorative image-->
-        <section class="volunteer container__p-all">
-            <div class="container">
-                <div class="volunteer__text">
-                    <h4>
-                        Join the Team
-                    </h4>
-                    <p>
-                        We are looking for students to help with making this event a 
-                        success. You can help with planning, outreach,  moderation,  
-                        speaker recruitment, website development, and more!  
-                        If you are interested in becoming a volunteer, email  
-                        <a href="mailto:studentsustainabilitysummit@gmail.com">
-                            studentsustainabilitysummit@gmail.com
-                        </a> or any of our socials.
-                    </p>
-                </div>
-                <div class="volunteer__image hide-for-mobile">
-                    <img src = "./images/qr_code.png" alt="QR code for discord channel">
-                </div>
-            </div>
-        </section>
+    <section class="volunteer container__p-all">
+      <div class="container">
+        <div class="volunteer__text">
+          <h4>Join the Team</h4>
+          <p>
+            We are looking for students to help with making this event a
+            success. You can help with planning, outreach, moderation, speaker
+            recruitment, website development, and more! If you are interested in
+            becoming a volunteer, email
+            <a href="mailto:studentsustainabilitysummit@gmail.com">
+              studentsustainabilitysummit@gmail.com
+            </a>
+            or any of our socials.
+          </p>
+        </div>
+        <div class="volunteer__image hide-for-mobile">
+          <img src="./images/qr_code.png" alt="QR code for discord channel" />
+        </div>
+      </div>
+    </section>
 
     <!--CTA banner-->
     <section class="ctabanner">
-        <div class="container">
-            <div class="ctabanner__text">
-                <h2>
-                    Join us in-person or virtually (or both). 
-                    We can't wait to see you there!
-                </h2>
-            </div>
-            <div class="ctabanner__buttons">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2O7IDWX2ZrYQy5UmpQTb4sbJvovELRhOOFAfASa5gzkahDA/viewform" class="button">Register Now</a>
-                <a href="mailto:studentsustainabilitysummit@gmail.com" class="button">Contact Us</a>
-            </div>
+      <div class="container">
+        <div class="ctabanner__text">
+          <h2>
+            Join us in-person or virtually (or both). We can't wait to see you
+            there!
+          </h2>
         </div>
+        <div class="ctabanner__buttons">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc2O7IDWX2ZrYQy5UmpQTb4sbJvovELRhOOFAfASa5gzkahDA/viewform"
+            class="button"
+            >Register Now</a
+          >
+          <a href="mailto:studentsustainabilitysummit@gmail.com" class="button"
+            >Contact Us</a
+          >
+        </div>
+      </div>
     </section>
 
     <!--footer-->
 
     <footer class="footer">
-        <a href="index.html">Home</a>|
-        <a href="about.html">About</a>|
-        <a href="presenters.html">Presenters</a>|
-        <a href="attendees.html">Attendees</a>|
-        <a href="schedule.html">Schedule</a>|
-        <a href="faq.html">FAQ</a>|
-        <a href="team.html">Meet the Team</a>
-        
-        <p>
-            © 2023 Student Sustainability Summit (S3) All Rights Reserved
-        </p>
+      <a href="index.html">Home</a>| <a href="about.html">About</a>|
+      <a href="presenters.html">Presenters</a>|
+      <a href="attendees.html">Attendees</a>|
+      <a href="schedule.html">Schedule</a>| <a href="faq.html">FAQ</a>|
+      <a href="team.html">Meet the Team</a>
 
-        <a href="https://discord.gg/rspWYVKznG">
-            <img src="./images/discord_img.png" alt="discord logo">
-        </a>
-        <a href="mailto:studentsustainabilitysummit@gmail.com">
-            <img src="./images/gmail_img.png" alt="gmail logo">
-        </a>
-        <a href="https://www.instagram.com/studentsustainabilitysummit/">
-            <img src="./images/insta_img.png" alt="discord">
-        </a>
-    
+      <p>© 2023 Student Sustainability Summit (S3) All Rights Reserved</p>
 
+      <a href="https://discord.gg/rspWYVKznG">
+        <img src="./images/discord_img.png" alt="discord logo" />
+      </a>
+      <a href="mailto:studentsustainabilitysummit@gmail.com">
+        <img src="./images/gmail_img.png" alt="gmail logo" />
+      </a>
+      <a href="https://www.instagram.com/studentsustainabilitysummit/">
+        <img src="./images/insta_img.png" alt="discord" />
+      </a>
     </footer>
-        
-   
+
     <!--Link to javascript (note that this needs to be at the end of body)-->
     <script src="./app/js/script.js"></script>
-</body>
-
+  </body>
 </html>
 
 <!--May be useful
