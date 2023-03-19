@@ -245,7 +245,6 @@
   @keyframes animateMed2{
     0% {
       transform: translateY(110vh) scale(0);
-      transform: translateY(190vh) scale(0);
     }
     100%{
       transform: translateY(-10vh) scale(120);
