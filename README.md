@@ -13,7 +13,6 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development (Top of the list is highest priority)
 
 ### Urgent:
-- (Maria) Sponsors/participating organizations section
 - Add speakers to schedule page
 - Add facebook and youtube link to the footer
 - Add new members on teams page
