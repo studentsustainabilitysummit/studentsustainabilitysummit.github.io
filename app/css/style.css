@@ -988,4 +988,24 @@ button:hover, .button:hover {
   color: #04a7e7;
 }
 
+.sponsors {
+  background-color: whitesmoke;
+}
+.sponsors__text {
+  color: #6cc743;
+}
+.sponsors__image {
+  min-height: 15.625rem;
+  max-height: 21.875rem;
+}
+@media (min-width: 64em) {
+  .sponsors .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

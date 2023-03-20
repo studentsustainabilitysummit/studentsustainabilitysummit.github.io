@@ -1,0 +1,24 @@
+.sponsors{
+    background-color: $lightgray;
+    
+
+    &__text{
+        color: $green;
+    }
+
+    &__image{
+        min-height: 15.625rem;
+        max-height: 21.875rem;
+    }
+
+    .container{
+        @include breakpoint-up(large){
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            align-items: center;
+            gap: 1em;
+        }
+    }
+
+}
