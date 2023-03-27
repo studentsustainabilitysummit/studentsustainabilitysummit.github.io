@@ -43,6 +43,7 @@ details.forEach((targetDetail) =>{
 });
 
 
+
 /*May be Useful
 
 ----attempt at sticky navigation bar-----

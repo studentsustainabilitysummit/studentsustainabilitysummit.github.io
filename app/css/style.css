@@ -937,6 +937,102 @@ button:hover, .button:hover {
   }
 }
 
+/*-- Schedule CSS --*/
+.slide__container{
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide__content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.speaker__card{
+  border-radius: 25px;
+  width: 320px;
+  background-color: whitesmoke;
+}
+
+.image__content, 
+.speaker__content {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image__content {
+  position: relative;
+  padding-top: 12px;
+  row-gap: 5px;
+}
+
+.card__image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card__image .speaker__image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.speaker__button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.name {
+  margin: 0;
+}
+
+.bio{
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.talk{
+  margin: 0;
+}
+
+.abstract{
+  margin: 0;
+}
+
+.green{
+  color: hsl(101, 54%, 52%);;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide__content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+/*-----------------------*/
+
 .team h2 {
   color: #6cc743;
   margin-bottom: 0px;
