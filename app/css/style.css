@@ -998,10 +998,18 @@ button:hover, .button:hover {
   margin: 0;
 }
 
+.popup__name{
+  margin: 0.3rem;
+}
+
 .bio{
   margin: 0;
   font-size: 15px;
   text-align: center;
+}
+
+.popup__bio{
+  margin: 0.2rem;
 }
 
 .talk{
@@ -1013,14 +1021,75 @@ button:hover, .button:hover {
 }
 
 .green{
-  color: hsl(101, 54%, 52%);;
+  color: hsl(101, 54%, 52%);
 }
-.swiper-pagination-bullet{
-  background-color: #6E93f7;
-  opacity: 1;
+
+.black{
+  color: black;
 }
-.swiper-pagination-bullet-active{
-  background-color: #4070F4;
+
+.swiper-pagination-bullet-active {
+  background-color:  hsl(101, 54%, 52%) !important;
+}
+
+.popup__container{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup__box{
+  background-color: #FFF;
+  border-radius: 12px;
+  width: 1000px;
+}
+
+.popup{
+  padding: 30px 20px;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1 1;
+  grid-template-areas: 
+          "sidebar content"
+          "sidebar content";
+}
+
+.speaker__profile{
+  grid-area: sidebar;
+}
+
+.talk__info{
+  grid-area: content;
+}
+
+.popup__pic {
+  width: 240px;
+  height: 240px;
+}
+
+.popup__image {
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+}
+
+.open-popup{
+  visibility: visible;
+}
+
+.exit__button{
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  
 }
 
 @media screen and (max-width: 768px) {

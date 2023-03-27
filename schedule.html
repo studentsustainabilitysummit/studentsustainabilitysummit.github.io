@@ -132,6 +132,7 @@
 
 
     <section>
+        <!--==========Good Health and Wellbeing Section==========-->
         <div class="speaker__category">
             <h2>Good Health and Wellbeing</h2>
 
@@ -139,6 +140,7 @@
                 <div class="slide__content swiper">
                     <div class="card__wrapper swiper-wrapper">
 
+                        <!-----Rzieh Farzad speaker card----->
                         <div class="speaker__card swiper-slide">
                             <div class="image__content">
                                 <span class="overlay"></span>
@@ -148,16 +150,18 @@
                                 </div>
                             </div>
 
+                            
                             <div class="speaker__content">
                                 <h2 class="name">Razieh Farzad</h2>
                                 <p class="bio">Biography</p>
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
 
-                                <button class="speaker__button">More</button>
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
 
+                        <!-----Samuel Rennich speaker card----->
                         <div class="speaker__card swiper-slide">
                             <div class="image__content">
                                 <span class="overlay"></span>
@@ -167,16 +171,18 @@
                                 </div>
                             </div>
 
+                            
                             <div class="speaker__content">
                                 <h2 class="name">Samuel Rennich</h2>
                                 <p class="bio">Biography</p>
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
 
-                                <button class="speaker__button">More</button>
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
 
+                        <!-----Rosa Hance speaker card----->
                         <div class="speaker__card swiper-slide">
                             <div class="image__content">
                                 <span class="overlay"></span>
@@ -192,10 +198,11 @@
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
 
-                                <button class="speaker__button">More</button>
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
 
+                        <!-----Dr. Leslie Paul Thiele speaker card----->
                         <div class="speaker__card swiper-slide">
                             <div class="image__content">
                                 <span class="overlay"></span>
@@ -211,10 +218,11 @@
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
 
-                                <button class="speaker__button">More</button>
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
 
+                        <!-----Dr. Byoung-Suk Kweon speaker card----->
                         <div class="speaker__card swiper-slide">
                             <div class="image__content">
                                 <span class="overlay"></span>
@@ -230,7 +238,7 @@
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
 
-                                <button class="speaker__button">More</button>
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
                     </div>
@@ -245,6 +253,8 @@
 
         <hr>
 
+
+        <!--==========Affordable and Clean Energy Section==========-->
         <div class="speaker__category">
             <h2 class="green">Affordable and Clean Energy</h2>
 
@@ -284,6 +294,7 @@
 
         <hr>
 
+        <!--==========Sustainable Development Section==========-->
         <div class="speaker__category">
             <h2>Sustainable Development</h2>
 
@@ -321,6 +332,8 @@
 
         <hr>
 
+
+        <!--==========Climate Action Section==========-->
         <div class="speaker__category">
             <h2 class="green">Climate Action</h2>
 
@@ -357,7 +370,7 @@
         </div>
 
         <hr>
-
+        <!--==========Life on Earth Section==========-->
         <div class="speaker__category">
             <h2>Life on Earth</h2>
 
@@ -379,8 +392,8 @@
                                 <p class="bio">Biography</p>
                                 <h3 class="talk">Talk Title</h3>
                                 <p class="abstract">Abstract</p>
-
-                                <button class="speaker__button">More</button>
+                                   
+                                <button class="speaker__button" onclick="openPopup()">More</button>
                             </div>
                         </div>
                     </div>
@@ -392,6 +405,38 @@
             </div>
 
         </div>
+
+
+
+        <!-----------------------Popup ups for speakers------------------------->
+
+        <!-----Popup----->
+        <div id="popup__container" class="popup__container">
+            <div class="popup__box">
+                <div class="popup">
+                    <div class="speaker__profile">
+                        <div class="popup__pic">
+                            <img src="./images/headshots/Ryan1.png" class="popup__image">
+                        </div>
+                        <h2 class="popup__name">Ryan kim</h2>
+                        <p class="popup__bio">
+                            biography
+                        <p>
+                        <h4>
+                            email/Contact info
+                        </h4>
+                    </div>
+                    <div class="talk_info">
+                        <h2>Talk Title</h2>
+                        <p class="black">abstract Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas labore, ab dolorum impedit porro rem quidem aspernatur quasi, blanditiis velit officia? Doloribus incidunt quidem exercitationem consequuntur laudantium repellat explicabo nobis.</p>
+                    </div>
+                </div>
+
+                <button class="exit__button"onclick="closePopup()">Close</button>
+            </div>
+        </div>
+        <!-----------------------Popup ups for speakers------------------------->
+
     </section>
 
     <!--CTA banner-->
@@ -453,6 +498,7 @@
             grabCursor: 'true',
             pagination: {
                 el:".swiper-pagination",
+                dynamicBullets: true,
                 clickable: true,
             },
             autoplay: {
@@ -470,6 +516,19 @@
                 },
             },
         });
+    </script>
+
+    <!--Popup(s) Javascript-->\
+    <script>
+    let popup = document.getElementById("popup__container");
+
+    function openPopup() {
+        popup.classList.add("open-popup");
+    }
+
+    function closePopup() {
+        popup.classList.remove("open-popup");
+    }
     </script>
 </body>
 
