@@ -15,18 +15,12 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ### Urgent:
 - Add speaker images speaker page
 - Add talk titles and abstracts for pop ups on speaker page
-- Add facebook and linkedin link to the footer (Maria)
 - Add new members on teams page [I think we are up to date]
-- Change map to STAMP UMD (Maria)
+
 
 ### Minor but important details:
 - Change font of hero to Shirkhand
-- "when" and "where" to be bold and darker font color
-- Change S-cube to S^3 (Maria)
-- Increase subheading size and make them bold
 - Smaller width for paragraphs
-- Capitalize first letters of words for headings
-- Center map on mobile view
 - Convert flex to grid on home page
 
 
@@ -35,4 +29,5 @@ This is a student-led project exposing students from all backgrounds to sustaina
 - Sticky navigation
 - Highlight section on click of "learn more" links
 - Change px to rem
+- Center map on mobile view
 
