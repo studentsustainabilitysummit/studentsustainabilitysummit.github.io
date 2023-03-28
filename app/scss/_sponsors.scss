@@ -20,4 +20,10 @@
         }
     }
 
+    &__center{
+        @include breakpoint-up(large){
+            display:flex;
+        }
+    }
+
 }

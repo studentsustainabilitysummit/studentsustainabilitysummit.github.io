@@ -1,0 +1,35 @@
+.schedule{
+
+    h2{
+        color: $green;
+    }
+
+    h3{
+        color: white;
+    }
+
+    h4, p{
+        color:$black;
+    }
+
+//background color for each sdg theme
+    &__sdg_1{
+        background-color: $blue;
+    }
+    &__sdg_2{
+        background-color: $lightblue;
+    }
+
+    &__sdg_3{
+        background-color: $bluegreen;
+    }
+
+    &__sdg_4{
+        background-color: $green;
+    }
+    &__sdg_5{
+        background-color: $darkgreen;
+    }
+
+
+}

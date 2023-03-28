@@ -1,3 +1,169 @@
+
+/*-- Schedule CSS --*/
+.slide__container{
+  width: 100%;
+  padding: 40px 0;
+}
+
+.slide__content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.speaker__card{
+  border-radius: 25px;
+  width: 320px;
+  background-color: whitesmoke;
+}
+
+.image__content, 
+.speaker__content {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image__content {
+  position: relative;
+  padding-top: 12px;
+  row-gap: 5px;
+}
+
+.card__image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card__image .speaker__image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.speaker__button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.name {
+  margin: 0;
+}
+
+.popup__name{
+  margin: 0.3rem;
+}
+
+.bio{
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.popup__bio{
+  margin: 0.2rem;
+}
+
+.talk{
+  margin: 0;
+}
+
+.abstract{
+  margin: 0;
+}
+
+.green{
+  color: hsl(101, 54%, 52%);
+}
+
+.black{
+  color: black;
+}
+
+.swiper-pagination-bullet-active {
+  background-color:  hsl(101, 54%, 52%) !important;
+}
+
+.popup__container{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup__box{
+  background-color: #FFF;
+  border-radius: 12px;
+  width: 1000px;
+}
+
+.popup{
+  padding: 30px 20px;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1 1;
+  grid-template-areas: 
+          "sidebar content"
+          "sidebar content";
+}
+
+.speaker__profile{
+  grid-area: sidebar;
+}
+
+.talk__info{
+  grid-area: content;
+}
+
+.popup__pic {
+  width: 240px;
+  height: 240px;
+}
+
+.popup__image {
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+}
+
+.open-popup{
+  visibility: visible;
+}
+
+.exit__button{
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .slide__content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+/*-----------------------*/
+
 /*----Bold----*/
 .bolded {
     font-weight: bold;
