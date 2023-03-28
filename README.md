@@ -13,9 +13,10 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development (Top of the list is highest priority)
 
 ### Urgent:
-- Add speakers to schedule page
+- Add speaker images speaker page
+- Add talk titles and abstracts for pop ups on speaker page
 - Add facebook and youtube link to the footer
-- Add new members on teams page
+- Add new members on teams page [I think we are up to date]
 - Change map to STAMP UMD
 
 ### Minor but important details:
@@ -27,11 +28,11 @@ This is a student-led project exposing students from all backgrounds to sustaina
 - Capitalize first letters of words for headings
 - Center map on mobile view
 - Convert flex to grid on home page
-- Change px to rem
+
 
 ### Nice to have:
 - No scroll on mobile while menu is displayed
 - Sticky navigation
-- Highlight section on click of "learn more links
-
+- Highlight section on click of "learn more" links
+- Change px to rem
 
