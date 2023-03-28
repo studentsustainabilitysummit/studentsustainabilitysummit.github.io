@@ -22,7 +22,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ### Minor but important details:
 - Change font of hero to Shirkhand
 - "when" and "where" to be bold and darker font color
-- Change S-cube to S^3
+- Change S-cube to S^3 (Maria)
 - Increase subheading size and make them bold
 - Smaller width for paragraphs
 - Capitalize first letters of words for headings
