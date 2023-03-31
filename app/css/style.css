@@ -1004,13 +1004,18 @@ button:hover, .button:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
-    gap: 1em;
+    gap: 1rem;
   }
 }
 @media (min-width: 64em) {
   .sponsors__center {
     display: flex;
   }
+}
+
+.margins {
+  margin-left: 8rem;
+  margin-right:8rem;
 }
 
 .schedule h2 {

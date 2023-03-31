@@ -386,7 +386,7 @@
   }
   @keyframes animateTop{
     0% {
-      transform: translateY(34vh) scale(0);
+      transform: translateY(42vh) scale(0);
     }
     100%{
       transform: translateY(-10vh) scale(120);
@@ -419,7 +419,7 @@
   }
   @keyframes animateTiny{
     0% {
-      transform: translateY(20vh) scale(0);
+      transform: translateY(30vh) scale(0);
     }
     100%{
       transform: translateY(-10vh) scale(120);
@@ -446,7 +446,7 @@
     
     @keyframes animateTop{
       0% {
-        transform: translateY(57vh) scale(20);
+        transform: translateY(70vh) scale(20);
       }
       100%{
         transform: translateY(-10vh) scale(120);
