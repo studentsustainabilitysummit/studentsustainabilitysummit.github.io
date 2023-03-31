@@ -64,6 +64,13 @@
   margin: 0.3rem;
 }
 
+.speaker__contacts{
+  color: hsl(197, 97%, 46%);
+  font-size: 1.3rem;
+  font-weight: bold;
+  
+}
+
 .bio{
   margin: 0;
   font-size: 15px;
@@ -127,6 +134,8 @@
 
 .speaker__profile{
   grid-area: sidebar;
+  justify-content: center;
+  display: center;
 }
 
 .talk__info{
@@ -134,6 +143,8 @@
 }
 
 .popup__pic {
+  margin-left: auto;
+  margin-right: auto;
   width: 240px;
   height: 240px;
 }
@@ -147,6 +158,8 @@
 .open-popup{
   visibility: visible;
 }
+
+.popup__bio 
 
 .exit__button{
   border-radius: 10px;
