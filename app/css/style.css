@@ -1018,6 +1018,13 @@ button:hover, .button:hover {
   margin-right:8rem;
 }
 
+@media (max-width: 64rem) {
+  .margins {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 .schedule h2 {
   color: #6cc743;
 }
