@@ -1,5 +1,33 @@
 
 /*-- Schedule CSS --*/
+.navBar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 0.7rem 1.7rem;
+  left: 50%;
+  bottom: 2rem;
+  gap: 1rem;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  backdrop-filter: blur(15px);
+  z-index: 100;
+  transform: translateX(-50%);
+  
+}
+
+.navBar a {
+  transition: all 400ms ease;
+  color:whitesmoke;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navBar a:hover {
+  color: antiquewhite;
+}
+
 .slide__container{
   width: 100%;
   padding: 40px 0;
@@ -54,6 +82,27 @@
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.schedule__name {
+  margin-top: 3rem;
+}
+
+.schedule__button{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 1rem 1.125rem;
+  width: max-content;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: hsl(197, 97%, 46%);
+  color:whitesmoke;
+  transition: background-color 300ms ease-in-out;
+}
+
+.schedule__button:hover {
+  background-color: #eea22f;
 }
 
 .name {
