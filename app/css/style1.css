@@ -481,7 +481,7 @@
   }
   @keyframes animateTiny{
     0% {
-      transform: translateY(30vh) scale(0);
+      transform: translateY(28vh) scale(0);
     }
     100%{
       transform: translateY(-10vh) scale(120);
