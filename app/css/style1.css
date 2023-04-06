@@ -7,7 +7,7 @@
   padding: 0.7rem 1.7rem;
   left: 50%;
   bottom: 2rem;
-  gap: 1rem;
+  gap: 3rem;
   width: max-content;
   display: flex;
   flex-direction: row;
@@ -16,6 +16,7 @@
   transform: translateX(-50%);
   
 }
+
 
 .navBar a {
   transition: all 400ms ease;
@@ -26,6 +27,22 @@
 
 .navBar a:hover {
   color: antiquewhite;
+}
+
+.workshop {
+  background-color: #eea22f;
+}
+
+.workshop__container{
+  background-color: whitesmoke;
+  margin:auto;
+  width: fit-content;
+  padding: 20px 25px;
+  border-radius: 15px;
+}
+
+.env__justice {
+  background-color: burlywood;
 }
 
 .slide__container{
