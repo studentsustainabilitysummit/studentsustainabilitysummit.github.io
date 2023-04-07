@@ -187,36 +187,25 @@
   width: 90vw;
 }
 
-.popup{
-  padding: 30px 20px;
-  text-align: center;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 1 1;
-  grid-template-areas: 
-          "sidebar content"
-          "sidebar content";
-}
-
-@media screen and (max-width: 1024px){
-  .popup__box{
-    width: 100vw;
-    height: 94vh;
-  }
-
-  .speaker__profile{
-    display: none;
-  }
-
-  .popup__pic{
-    display: none;
-  }
-}
 
 .scroll__container{
   height: 60vh;
   overflow: hidden;
   overflow-y: scroll;
+}
+
+.popup{
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 30vw 50vw;
+  grid-template-rows: 30vh 30vh 15vh;
+  grid-template-areas: 
+          "sidebar info"
+          "sidebar info";
 }
 
 .speaker__profile{
@@ -226,8 +215,50 @@
 }
 
 .talk__info{
-  grid-area: content;
+  grid-area: info;
 }
+
+@media screen and (max-width: 1024px){
+  .popup__box{
+    width: 100vw;
+    height: 97vh;
+  }
+  .popup{
+    grid-template-columns: 80vw 5vw;
+    grid-template-rows: 10vh 70vh;
+    grid-template-areas: 
+          "sidebar sidebar"
+          "info info";
+  }
+
+  .speaker__profile{
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .talk__info{
+    grid-area: info;
+  }
+
+  .popup__pic{
+    display: none;
+  }
+
+  .scroll__container{
+    height: 48vh;
+  }
+
+  .speaker__contacts{
+    display: none;
+  }
+}
+
+.exit__button{
+  border-radius: 10px;
+  margin-bottom: 2rem; 
+}
+
 
 .popup__pic {
   margin-left: auto;
@@ -245,12 +276,6 @@
   visibility: visible;
 }
 
-.popup__bio 
-
-.exit__button{
-  border-radius: 10px;
-  margin-bottom: 1rem ; 
-}
 
 @media screen and (max-width: 768px) {
   .slide__content{
