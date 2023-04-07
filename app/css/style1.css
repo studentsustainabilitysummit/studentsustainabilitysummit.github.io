@@ -198,6 +198,21 @@
           "sidebar content";
 }
 
+@media screen and (max-width: 1024px){
+  .popup__box{
+    width: 100vw;
+    height: 94vh;
+  }
+
+  .speaker__profile{
+    display: none;
+  }
+
+  .popup__pic{
+    display: none;
+  }
+}
+
 .scroll__container{
   height: 60vh;
   overflow: hidden;
