@@ -8,8 +8,16 @@
         color: white;
     }
 
-    h4, p{
+  
+    h5, p{
         color:$black;
+    }
+
+//shorten abstract on speaker card
+    &__shorten{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
 //background color for each sdg theme

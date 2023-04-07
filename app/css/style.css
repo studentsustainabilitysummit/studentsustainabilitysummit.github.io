@@ -69,7 +69,6 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -1005,24 +1004,12 @@ button:hover, .button:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
-    gap: 1rem;
+    gap: 1em;
   }
 }
 @media (min-width: 64em) {
   .sponsors__center {
     display: flex;
-  }
-}d
-
-.margins {
-  margin-left: 8rem;
-  margin-right:8rem;
-}
-
-@media (max-width: 64rem) {
-  .margins {
-    margin-left: 0rem;
-    margin-right: 0rem;
   }
 }
 
@@ -1032,8 +1019,13 @@ button:hover, .button:hover {
 .schedule h3 {
   color: white;
 }
-.schedule h4, .schedule p {
+.schedule h5, .schedule p {
   color: black;
+}
+.schedule__shorten {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .schedule__sdg_1 {
   background-color: #04a7e7;
