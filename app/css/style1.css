@@ -184,7 +184,7 @@
 .popup__box{
   background-color: #FFF;
   border-radius: 12px;
-  width: 1000px;
+  width: 90vw;
 }
 
 .popup{
@@ -196,6 +196,12 @@
   grid-template-areas: 
           "sidebar content"
           "sidebar content";
+}
+
+.scroll__container{
+  height: 60vh;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .speaker__profile{
@@ -217,8 +223,7 @@
 
 .popup__image {
   border-radius: 10px;
-  width: 240px;
-  height: 240px;
+  width: 16vw;
 }
 
 .open-popup{
