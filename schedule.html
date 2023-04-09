@@ -365,6 +365,8 @@
                                 </div>
                             </div>
 
+                            
+
                             <!------------Filler speaker card------------>
                             <div class="speaker__card swiper-slide">
                                     
@@ -672,12 +674,36 @@
                                 </div>
 
                                 <div class="speaker__content">
-                                    <h4 class="name">Alexanderia Lacy</h4>
+                                    <h5 class="name">Alexanderia Lacy</h5>
                                     <p class="bio">University of Tennessee, Knoxville | Graduate Research Assistant </p>
                                     
                                     <button class="speaker__button" onclick="openAlexanderia()">Learn More</button>
                                 </div>
                             </div>
+
+                            <!-----Sustainable Scoop speaker card----->
+                            <div class="speaker__card swiper-slide">
+                                <div class="talk__content">
+                                    <h4 class="talk__title">StyrofoamMom</h4>
+                                    <!--<p class="talk__abstract schedule__shorten">Abstract: Coming Soon!</p>-->
+                                </div>
+
+                                <div class="image__content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card__image">
+                                        <img src="./images/sponsors/logo_scoop.png" alt="sustainable scoop" class="speaker__image">
+                                    </div>
+                                </div>
+
+                                <div class="speaker__content">
+                                    <h5 class="name">Miriam Gennari</h5>
+                                    <p class="bio">Sustainable Scoop | Founder</p>
+
+                                    <button class="speaker__button" onclick="openScoop()">Learn More</button>
+                                </div>
+                            </div>
+
 
                             <!------------Filler speaker card------------>
                             <div class="speaker__card swiper-slide">
@@ -2322,7 +2348,6 @@
                     <div class="talk__info">
                         <h2>Modeling of the Invasive Species, Zebra Mussels</h2>
                         <div class="scroll__container">
-                            <div class="scroll__container">
                                 <p class="scroll__item black">
                                     The invasive species zebra mussels have caused significant damages to many lakes and rivers.  
                                     By using a hybrid population model with discrete-time equations and ordinary differential equations, 
@@ -2331,12 +2356,47 @@
                                     over several years were used to estimate model parameters. We will illustrate 
                                     numerically the hybrid population model for several scenarios.
                                 </p>
-                            </div>
                         </div>
                     </div>
                 </div>
 
                 <button class="exit__button"onclick="closeAlexanderia()">Close</button>
+            </div>
+        </div>
+
+        <!--Sustainable Scoop Popup-->
+        <div id="scoop" class="popup__container">
+            <div class="popup__box">
+                <div class="popup">
+                    <div class="speaker__profile">
+                        <div class="popup__pic">
+                            <img src="./images/sponsors/logo_scoop.png" class="popup__image">
+                        </div>
+                        <h2 class="popup__name">Miriam Gennari</h2>
+                        <p class="popup__bio">
+                            Sustainable Scoop | Founder
+                        <p>
+                        <h4>
+                            ...
+                        </h4>
+                    </div>
+                    <div class="talk__info">
+                        <h2>StyrofoamMom Movie</h2>
+                        <div class="scroll__container">
+                            <p class="scroll__item black">
+                                StyrofoamMom is an environmental film that examines the challenges involved in eliminating single-use plastics and specifically ESP or Expanded Polystyrene.
+                                <br>
+                                The film includes interviews with Cheryl Kaagen, a Maryland State Senator, concerned with the impact on the Chesapeake Bay and the fish, wildlife and public health of her state.  Greg Kasten, President and CEO of Ocean Pro Industries & Profish, Ltd., in Washington, DC, gives his perspective on the use of styrofoam in the fishing industry.  Alexandria Dysard, Director of Sustainability, Mom's Organic Market, addresses the challenge to keep styrofoam out of the retail grocery chain and recycling the product.  Michael Levy, American Chemistry Council, discusses the efforts of his organization to recycle Styrofoam.   Gennari also focuses on the removal of styrofoam from Fairfax county schools through her interviews with youth.  Baltimore Beyond Plastic is an organization whose spokeswomen led the charge for Maryland styrofoam legislation.
+                                <br>
+                                Gennari gives air time to these collective voices in her film which is dedicated to improve the health and well being of her community, the oceans and the marine life affected by single-use plastics and styrofoam.  The increasing popularity of ordering products via the Internet has led to the proliferation of styrofoam and threatens our environment.  Gennari takes a look at solutions to the current challenges communities face as they seek to eliminate styrofoam use.
+                                <br>
+                                Her #holdthefoam campaign has received global attention through Arlington Public Media on her program Sustainable Scoop in Arlington, Virginia, and throughout the country.  The film StyrofoamMom was released in March 2019 and is set to be screened in film festivals and with environmentally responsible organizations like the Sierra Club, the Center for Concern in Washington, DC, universities and trade associations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="exit__button"onclick="closeScoop()">Close</button>
             </div>
         </div>
 
@@ -2403,6 +2463,8 @@
                 <button class="exit__button"onclick="closeGoger()">Close</button>
             </div>
         </div>
+
+        
 
         <!-----Workshop Popup----->
         <div id="workshop" class="popup__container">
@@ -3085,34 +3147,43 @@
     let shelby = document.getElementById("shelby");
     let ramalingam = document.getElementById("ramalingam");
     let alexanderia = document.getElementById("alexanderia");
+    let scoop = document.getElementById("scoop");
 
-    let boules = document.getElementById("boules")
-    let goger = document.getElementById("goger")
-    let workshop = document.getElementById("workshop")
-    let panel = document.getElementById("panel")
-    let vernice = document.getElementById("vernice")
-    let yinka = document.getElementById("yinka")
-    let ruby = document.getElementById("ruby")
+    let boules = document.getElementById("boules");
+    let goger = document.getElementById("goger");
+    
+    let workshop = document.getElementById("workshop");
+    let panel = document.getElementById("panel");
+    let vernice = document.getElementById("vernice");
+    let yinka = document.getElementById("yinka");
+    let ruby = document.getElementById("ruby");
 
-    let naman = document.getElementById("naman")
-    let jennifer = document.getElementById("jennifer")
-    let kate = document.getElementById("kate")
-    let marcia = document.getElementById("marcia")
-    let lauren = document.getElementById("lauren")
-    let matthew = document.getElementById("matthew")
+    let naman = document.getElementById("naman");
+    let jennifer = document.getElementById("jennifer");
+    let kate = document.getElementById("kate");
+    let marcia = document.getElementById("marcia");
+    let lauren = document.getElementById("lauren");
+    let matthew = document.getElementById("matthew");
 
-    let george = document.getElementById("george")
-    let iordanka = document.getElementById("iordanka")
-    let anika = document.getElementById("anika")
-    let kristen = document.getElementById("kristen")
-    let alana = document.getElementById("alana")
-    let sawyer = document.getElementById("sawyer")
+    let george = document.getElementById("george");
+    let iordanka = document.getElementById("iordanka");
+    let anika = document.getElementById("anika");
+    let kristen = document.getElementById("kristen");
+    let alana = document.getElementById("alana");
+    let sawyer = document.getElementById("sawyer");
 
     function openKristen() {
         kristen.classList.add("open-popup");
     }
     function closeKristen() {
        kristen.classList.remove("open-popup");
+    }
+
+    function openScoop() {
+        scoop.classList.add("open-popup");
+    }
+    function closeScoop() {
+       scoop.classList.remove("open-popup");
     }
 
     function openAlana() {
