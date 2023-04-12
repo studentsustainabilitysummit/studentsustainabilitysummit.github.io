@@ -50,9 +50,25 @@
   border-radius: 15px;
 }
 
+.ej__container{
+  background-color: whitesmoke;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: fit-content;
+  padding: 25px 25px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px){
+  .ej__container{
+    margin: auto;
+  }
+}
+
 .env__justice {
   background-color: burlywood;
 }
+
 
 .slide__container{
   width: 100%;
