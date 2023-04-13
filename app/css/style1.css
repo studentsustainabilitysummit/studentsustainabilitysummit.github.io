@@ -52,8 +52,7 @@
 
 .ej__container{
   background-color: whitesmoke;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: auto;
   width: fit-content;
   padding: 25px 25px;
   border-radius: 15px;
