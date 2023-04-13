@@ -38,6 +38,10 @@
   color: burlywood;
 }
 
+.poster__presentation{
+  background-color: lightgreen;
+}
+
 .workshop {
   background-color: #eea22f;
 }
