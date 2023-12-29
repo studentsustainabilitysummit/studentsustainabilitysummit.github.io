@@ -1,4 +1,4 @@
-# Student Sustainability Summit (S^3) Website 2023
+# [Student Sustainability Summit (S^3) Website 2024](https://www.studentsustainabilitysummit.org/index.html)
 
 This is a student-led project exposing students from all backgrounds to sustainability in different fields such as including technology, science, education, economics, policy, law, art, psychology, and more. This website serves as a hub for registration links, schedule, contact information, and other relevant information.
 
@@ -13,9 +13,8 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development (Top of the list is highest priority)
 
 ### Urgent:
-- Add speaker images speaker page
-- Add talk titles and abstracts for pop ups on speaker page
-- Add new members on teams page [I think we are up to date]
+- 
+- Add new members on teams page
 
 
 ### Minor but important details:
