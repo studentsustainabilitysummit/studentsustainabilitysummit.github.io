@@ -1,5 +1,25 @@
 
 /*-- Schedule CSS --*/
+.dropdown{
+  float: right;
+  overflow:hidden;
+}
+
+.dropdown .drop_btn{
+  border: none;
+  outline: none;
+  color: hsl(197, 97%, 46%);
+  padding: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: inherit;
+}
+
+.navbar .dropdown:hover .drop_btn{
+/* MARIA START HERE */
+}
+
 .buttons__container{
   display: flex;
   flex-direction:  row;
