@@ -35,15 +35,35 @@
   float: none;
   color:hwb(197 2% 9%);
   text-decoration: none;
-  display: block;
+  display: block; 
   text-align: center;
   margin-right: 0rem !important;
 }
 
+.dropdown-content a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: -1px;
+  background-image: linear-gradient(to right, #04a7e7, #6cc743, #eea22f);
+  background-size: 0%;
+  transition: 0.2s ease-in-out;
+}
+
 .dropdown-content a:hover{
   background-color: white;
+  color: #6cc743;
 
 }
+
+.dropdown-content a:hover::before {
+  background-size: 100%;
+}
+
+
 
 .dropdown:hover .dropdown-content{
   display: block;
