@@ -1,5 +1,83 @@
 
 /*-- Schedule CSS --*/
+.dropdown{
+  float: right;
+  overflow:hidden;
+}
+
+.dropdown .drop_btn{
+  border: none;
+  outline: none;
+  color: hsl(197, 97%, 46%);
+  padding: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .drop_btn{
+  text-decoration: underline;
+  color: hsl(101, 54%, 52%);;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 4em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+
+}
+
+.dropdown-content a{
+  float: none;
+  color:hwb(197 2% 9%);
+  text-decoration: none;
+  display: block; 
+  text-align: center;
+  margin-right: 0rem !important;
+}
+
+.dropdown-content a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: -1px;
+  background-image: linear-gradient(to right, #04a7e7, #6cc743, #eea22f);
+  background-size: 0%;
+  transition: 0.2s ease-in-out;
+}
+
+.dropdown-content a:hover{
+  background-color: white;
+  color: #6cc743;
+
+}
+
+.dropdown-content a:hover::before {
+  background-size: 100%;
+}
+
+
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
+.caret{
+  border: solid white;
+  border-width: 0px 0px 0px 0;
+  display: inline-block;
+  padding: 0px;
+  font-size: 0.8em;
+}
+
 .buttons__container{
   display: flex;
   flex-direction:  row;
