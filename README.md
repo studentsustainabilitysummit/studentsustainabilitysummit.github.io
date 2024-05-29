@@ -2,7 +2,7 @@
 
 This is a student-led project exposing students from all backgrounds to sustainability in different fields such as including technology, science, education, economics, policy, law, art, psychology, and more. This website serves as a hub for registration links, schedule, contact information, and other relevant information.
 
-##How to get started
+## How to get started
 
 1. We recommend downloading [Github desktop](https://desktop.github.com/) and [Visual Studio Code](https://code.visualstudio.com/download).
 2. Fork the repository.
