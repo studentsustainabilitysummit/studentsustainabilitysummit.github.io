@@ -13,10 +13,9 @@ This is a student-led project exposing students from all backgrounds to sustaina
 7. Push to the branch.
 8. Open a pull request.
 
-## Continued development (Top of the list is highest priority). MARIA will put these under issues.
+## Continued development
 
 ### Urgent:
-- 
 - Add new members on teams page
 
 
