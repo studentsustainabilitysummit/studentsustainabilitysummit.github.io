@@ -1007,6 +1007,14 @@ button:hover, .button:hover {
     align-items: center;
     gap: 1em;
   }
+  /*Temporarily adding this because we only have two sponsors in a row*/
+  .sponsors .sponsors_container_temp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 1em;
+  }
 }
 @media (min-width: 64em) {
   .sponsors__center {
