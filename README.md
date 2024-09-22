@@ -12,4 +12,5 @@ This is a student-led project exposing students from all backgrounds to sustaina
 6. Commit your changes.
 7. Push to the branch.
 8. Open a pull request.
+9. Assign student sustainability summit as the reviewer
 
