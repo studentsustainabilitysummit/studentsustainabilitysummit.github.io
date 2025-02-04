@@ -1,11 +1,10 @@
-
 /*-- Schedule CSS --*/
-.dropdown{
+.dropdown {
   float: right;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.dropdown .drop_btn{
+.dropdown .drop_btn {
   border: none;
   outline: none;
   color: hsl(197, 97%, 46%);
@@ -16,32 +15,32 @@
   background-color: inherit;
 }
 
-.navbar a:hover, .dropdown:hover .drop_btn{
+.navbar a:hover,
+.dropdown:hover .drop_btn {
   text-decoration: underline;
-  color: hsl(101, 54%, 52%);;
+  color: hsl(101, 54%, 52%);
 }
 
-.dropdown-content{
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 4em;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   z-index: 0;
-
 }
 
-.dropdown-content a{
+.dropdown-content a {
   float: none;
-  color:hwb(197 2% 9%);
+  color: hwb(197 2% 9%);
   text-decoration: none;
-  display: block; 
+  display: block;
   text-align: center;
   margin-right: 0rem !important;
 }
 
 .dropdown-content a::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   height: 5px;
@@ -53,24 +52,20 @@
   transition: 0.2s ease-in-out;
 }
 
-.dropdown-content a:hover{
+.dropdown-content a:hover {
   background-color: white;
   color: #6cc743;
-
 }
 
 .dropdown-content a:hover::before {
   background-size: 100%;
 }
 
-
-
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
-
-.caret{
+.caret {
   border: solid white;
   border-width: 0px 0px 0px 0;
   display: inline-block;
@@ -78,9 +73,9 @@
   font-size: 0.8em;
 }
 
-.buttons__container{
+.buttons__container {
   display: flex;
-  flex-direction:  row;
+  flex-direction: row;
   margin: auto;
   gap: 3rem;
   align-items: center;
@@ -101,13 +96,11 @@
   backdrop-filter: blur(15px);
   z-index: 100;
   transform: translateX(-50%);
-  
 }
-
 
 .navBar a {
   transition: all 400ms ease;
-  color:whitesmoke;
+  color: whitesmoke;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -116,7 +109,7 @@
   color: burlywood;
 }
 
-.poster__presentation{
+.poster__presentation {
   background-color: lightgreen;
 }
 
@@ -124,7 +117,7 @@
   background-color: #eea22f;
 }
 
-.workshop__container{
+.workshop__container {
   background-color: whitesmoke;
   margin: auto;
   width: fit-content;
@@ -132,7 +125,7 @@
   border-radius: 15px;
 }
 
-.ej__container{
+.ej__container {
   background-color: whitesmoke;
   margin: auto;
   width: fit-content;
@@ -140,8 +133,8 @@
   border-radius: 15px;
 }
 
-@media screen and (max-width: 1024px){
-  .ej__container{
+@media screen and (max-width: 1024px) {
+  .ej__container {
     margin: auto;
   }
 }
@@ -150,30 +143,34 @@
   background-color: burlywood;
 }
 
-
-.slide__container{
+.slide__container {
   width: 100%;
   padding: 40px 0;
 }
 
-.slide__content{
+.slide__content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
 
-.speaker__card{
+.speaker__card,
+.recording_card {
   border-radius: 25px;
-  width: 320px;
+  height: 300px;
   background-color: whitesmoke;
 }
 
-.image__content, 
+.image__content,
 .speaker__content {
   padding: 0px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.recording__container {
+  padding: 10px;
+  height: 100%;
 }
 
 .image__content {
@@ -181,25 +178,37 @@
   padding-top: 12px;
   row-gap: 5px;
 }
-
-.card__image{
+.talk__content {
+  height: 100px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__image {
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
 }
 
-.card__image .speaker__image{
+.card__image .speaker__image {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
 }
+.recording_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
 
-.speaker__button{
+.speaker__button {
   border: none;
   font-size: 16px;
-  color: #FFF;
+  color: #fff;
   padding: 8px 16px;
   border-radius: 6px;
   margin: 14px;
@@ -211,7 +220,7 @@
   margin-top: 3rem;
 }
 
-.schedule__button{
+.schedule__button {
   position: relative;
   display: inline-block;
   margin-bottom: 2rem;
@@ -220,7 +229,7 @@
   border-radius: 10px;
   font-weight: bold;
   background-color: hsl(197, 97%, 46%);
-  color:whitesmoke;
+  color: whitesmoke;
   transition: background-color 300ms ease-in-out;
 }
 
@@ -232,48 +241,47 @@
   margin: 0;
 }
 
-.popup__name{
+.popup__name {
   margin: 0.3rem;
 }
 
-.speaker__contacts{
+.speaker__contacts {
   color: hsl(197, 97%, 46%);
   font-size: 1.3rem;
   font-weight: bold;
-  
 }
 
-.bio{
+.bio {
   margin: 0;
   font-size: 15px;
   text-align: center;
 }
 
-.popup__bio{
+.popup__bio {
   margin: 0.2rem;
 }
 
-.talk{
+.talk {
   margin: 0;
 }
 
-.abstract{
+.abstract {
   margin: 0;
 }
 
-.green{
+.green {
   color: hsl(101, 54%, 52%);
 }
 
-.black{
+.black {
   color: black;
 }
 
 .swiper-pagination-bullet-active {
-  background-color:  hsl(101, 54%, 52%) !important;
+  background-color: hsl(101, 54%, 52%) !important;
 }
 
-.popup__container{
+.popup__container {
   position: fixed;
   display: flex;
   align-items: center;
@@ -287,20 +295,19 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.popup__box{
+.popup__box {
   background-color: whitesmoke;
   border-radius: 12px;
   width: 90vw;
 }
 
-
-.scroll__container{
+.scroll__container {
   height: 60vh;
   overflow: hidden;
   overflow-y: scroll;
 }
 
-.popup{
+.popup {
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -309,62 +316,61 @@
   grid-gap: 2rem;
   grid-template-columns: 30vw 50vw;
   grid-template-rows: 30vh 30vh 15vh;
-  grid-template-areas: 
-          "sidebar info"
-          "sidebar info";
+  grid-template-areas:
+    'sidebar info'
+    'sidebar info';
 }
 
-.speaker__profile{
+.speaker__profile {
   grid-area: sidebar;
   justify-content: center;
   display: center;
 }
 
-.talk__info{
+.talk__info {
   grid-area: info;
 }
 
-@media screen and (max-width: 1024px){
-  .popup__box{
+@media screen and (max-width: 1024px) {
+  .popup__box {
     width: 100vw;
     height: 97vh;
   }
-  .popup{
+  .popup {
     grid-template-columns: 80vw 5vw;
     grid-template-rows: 10vh 70vh;
-    grid-template-areas: 
-          "sidebar sidebar"
-          "info info";
+    grid-template-areas:
+      'sidebar sidebar'
+      'info info';
   }
 
-  .speaker__profile{
+  .speaker__profile {
     grid-area: sidebar;
     display: flex;
     flex-direction: row;
   }
 
-  .talk__info{
+  .talk__info {
     grid-area: info;
   }
 
-  .popup__pic{
+  .popup__pic {
     display: none;
   }
 
-  .scroll__container{
+  .scroll__container {
     height: 48vh;
   }
 
-  .speaker__contacts{
+  .speaker__contacts {
     display: none;
   }
 }
 
-.exit__button{
+.exit__button {
   border-radius: 10px;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
-
 
 .popup__pic {
   margin-left: auto;
@@ -378,16 +384,15 @@
   width: 16vw;
 }
 
-.open-popup{
+.open-popup {
   visibility: visible;
 }
 
-
 @media screen and (max-width: 768px) {
-  .slide__content{
+  .slide__content {
     margin: 0 10px;
   }
-  .swiper-navBtn{
+  .swiper-navBtn {
     display: none;
   }
 }
@@ -395,335 +400,335 @@
 
 /*----Bold----*/
 .bolded {
-    font-weight: bold;
-    color: white;
-  }
-  /*----general bubble class----*/
-  .bubble {
-    position: absolute;
-    display: block;
-    width: 0.1rem;
-    height: 0.1rem;
-    float: left;
-    z-index: -100;
-  }
-  /*----regular bubble----*/
-  .bubble.reg_blue {
-    left: 4vw;
-    animation: animate 38s linear infinite;
-  }
-  .bubble.reg_light {
-    left: 20vw;
-    animation: animate 25s linear infinite;
-  }
-  .bubble.reg_green {
-    left: 38vw;
-    animation: animate 31s linear infinite;
-  }
-  .bubble.reg_blue2 {
-    left: 58vw;
-    animation: animate 20s linear infinite;
-  }
-  .bubble.reg_light2 {
-    left: 80vw;
-    animation: animate 45s linear infinite;
-  }
-  .bubble.reg_green2 {
-    left: 95vw;
-    animation: animate 24s linear infinite;
-  }
-  /*----regular bubbles----*/
-  /*----Top Bubbles----*/
-  .bubble.top_blue {
-    /* left: 8rem; */
-    left: 4vw;
-    animation: animateTop 38s linear infinite;
-  }
-  .bubble.top_light {
-    /* left: 20rem; */
-    left: 20vw;
-    animation: animateTop 25s linear infinite;
-  }
-  .bubble.top_green {
-    /* left: 37rem; */
-    left: 38vw;
-    animation: animateTop 31s linear infinite;
-  }
-  .bubble.top_blue2 {
-    /* left: 60rem; */
-    left: 58vw;
-    animation: animateTop 20s linear infinite;
-  }
-  .bubble.top_light2 {
-    /* left: 75rem; */
-    left: 80vw;
-    animation: animateTop 45s linear infinite;
-  }
-  .bubble.top_green2 {
-    left: 95vw;
-    /* left: 88rem; */
-    animation: animateTop 21s linear infinite;
-  }
-  /*----Top Bubbles----*/
-  /*----Long Bubbles----*/
-  .bubble.long_blue {
-    left: 5vw;
-    animation: animateLong 28s linear infinite;
-  }
-  .bubble.long_light {
-    left: 20vw;
-    animation: animateLong 18s linear infinite;
-  }
-  .bubble.long_green {
-    left: 38vw;
-    animation: animateLong 23s linear infinite;
-  }
-  .bubble.long_blue2 {
-    left: 58vw;
-    animation: animateLong 13s linear infinite;
-  }
-  .bubble.long_light2 {
-    left: 80vw;
-    animation: animateLong 30s linear infinite;
-  }
-  .bubble.long_green2 {
-    left: 95vw;
-    animation: animateLong 15s linear infinite;
-  }
-  /*----Long Bubbles----*/
-  /*----Medium 2 Bubbles----*/
-  .bubble.med2_blue {
-    left: 4vw;
-    animation: animateMed2 38s linear infinite;
-  }
-  .bubble.med2_light {
-    left: 20vw;
-    animation: animateMed2 25s linear infinite;
-  }
-  .bubble.med2_green {
-    left: 38vw;
-    animation: animateMed2 31s linear infinite;
-  }
-  .bubble.med2_blue2 {
-    left: 58vw; 
-    animation: animateMed2 20s linear infinite;
-  }
-  .bubble.med2_light2 {
-    left: 80vw;
-    animation: animateMed2 45s linear infinite;
-  }
-  .bubble.med2_green2 {
-    left: 95vw;
-    animation: animateMed2 17s linear infinite;
-  }
-  /*----Medium 2 Bubbles----*/
-  /*----Medium Bubbles----*/
-  .bubble.med_blue {
-    left: 4vw;
-    animation: animateMed 38s linear infinite;
-  }
-  .bubble.med_light {
-    left: 20vw;
-    animation: animateMed 25s linear infinite;
-  }
-  .bubble.med_green {
-    left: 38vw;
-    animation: animateMed 31s linear infinite;
-  }
-  .bubble.med_blue2 {
-    left: 58vw; 
-    animation: animateMed 20s linear infinite;
-  }
-  .bubble.med_light2 {
-    left: 80vw;
-    animation: animateMed 45s linear infinite;
-  }
-  .bubble.med_green2 {
-    left: 95vw;
-    animation: animateMed 21s linear infinite;
-  }
-  /*Medium Bubbles*/
-  /*Tiny Bubbles*/
-  .bubble.tiny_blue {
-    left: 4vw;
-    animation: animateTiny 38s linear infinite;
-  }
-  .bubble.tiny_light {
-    left: 20vw;
-    animation: animateTiny 25s linear infinite;
-  }
-  .bubble.tiny_green {
-    left: 38vw;
-    animation: animateTiny 31s linear infinite;
-  }
-  .bubble.tiny_blue2 {
-    left: 58vw;
-    animation: animateTiny 20s linear infinite;
-  }
-  .bubble.tiny_light2 {
-    left: 80vw;
-    animation: animateTiny 45s linear infinite;
-  }
-  .bubble.tiny_green2 {
-    left: 95vw;
-    animation: animateTiny 21s linear infinite;
-  }
-  /*Tiny Bubbles*/
-  /*MTT Bubbles*/
+  font-weight: bold;
+  color: white;
+}
+/*----general bubble class----*/
+.bubble {
+  position: absolute;
+  display: block;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  z-index: -100;
+}
+/*----regular bubble----*/
+.bubble.reg_blue {
+  left: 4vw;
+  animation: animate 38s linear infinite;
+}
+.bubble.reg_light {
+  left: 20vw;
+  animation: animate 25s linear infinite;
+}
+.bubble.reg_green {
+  left: 38vw;
+  animation: animate 31s linear infinite;
+}
+.bubble.reg_blue2 {
+  left: 58vw;
+  animation: animate 20s linear infinite;
+}
+.bubble.reg_light2 {
+  left: 80vw;
+  animation: animate 45s linear infinite;
+}
+.bubble.reg_green2 {
+  left: 95vw;
+  animation: animate 24s linear infinite;
+}
+/*----regular bubbles----*/
+/*----Top Bubbles----*/
+.bubble.top_blue {
+  /* left: 8rem; */
+  left: 4vw;
+  animation: animateTop 38s linear infinite;
+}
+.bubble.top_light {
+  /* left: 20rem; */
+  left: 20vw;
+  animation: animateTop 25s linear infinite;
+}
+.bubble.top_green {
+  /* left: 37rem; */
+  left: 38vw;
+  animation: animateTop 31s linear infinite;
+}
+.bubble.top_blue2 {
+  /* left: 60rem; */
+  left: 58vw;
+  animation: animateTop 20s linear infinite;
+}
+.bubble.top_light2 {
+  /* left: 75rem; */
+  left: 80vw;
+  animation: animateTop 45s linear infinite;
+}
+.bubble.top_green2 {
+  left: 95vw;
+  /* left: 88rem; */
+  animation: animateTop 21s linear infinite;
+}
+/*----Top Bubbles----*/
+/*----Long Bubbles----*/
+.bubble.long_blue {
+  left: 5vw;
+  animation: animateLong 28s linear infinite;
+}
+.bubble.long_light {
+  left: 20vw;
+  animation: animateLong 18s linear infinite;
+}
+.bubble.long_green {
+  left: 38vw;
+  animation: animateLong 23s linear infinite;
+}
+.bubble.long_blue2 {
+  left: 58vw;
+  animation: animateLong 13s linear infinite;
+}
+.bubble.long_light2 {
+  left: 80vw;
+  animation: animateLong 30s linear infinite;
+}
+.bubble.long_green2 {
+  left: 95vw;
+  animation: animateLong 15s linear infinite;
+}
+/*----Long Bubbles----*/
+/*----Medium 2 Bubbles----*/
+.bubble.med2_blue {
+  left: 4vw;
+  animation: animateMed2 38s linear infinite;
+}
+.bubble.med2_light {
+  left: 20vw;
+  animation: animateMed2 25s linear infinite;
+}
+.bubble.med2_green {
+  left: 38vw;
+  animation: animateMed2 31s linear infinite;
+}
+.bubble.med2_blue2 {
+  left: 58vw;
+  animation: animateMed2 20s linear infinite;
+}
+.bubble.med2_light2 {
+  left: 80vw;
+  animation: animateMed2 45s linear infinite;
+}
+.bubble.med2_green2 {
+  left: 95vw;
+  animation: animateMed2 17s linear infinite;
+}
+/*----Medium 2 Bubbles----*/
+/*----Medium Bubbles----*/
+.bubble.med_blue {
+  left: 4vw;
+  animation: animateMed 38s linear infinite;
+}
+.bubble.med_light {
+  left: 20vw;
+  animation: animateMed 25s linear infinite;
+}
+.bubble.med_green {
+  left: 38vw;
+  animation: animateMed 31s linear infinite;
+}
+.bubble.med_blue2 {
+  left: 58vw;
+  animation: animateMed 20s linear infinite;
+}
+.bubble.med_light2 {
+  left: 80vw;
+  animation: animateMed 45s linear infinite;
+}
+.bubble.med_green2 {
+  left: 95vw;
+  animation: animateMed 21s linear infinite;
+}
+/*Medium Bubbles*/
+/*Tiny Bubbles*/
+.bubble.tiny_blue {
+  left: 4vw;
+  animation: animateTiny 38s linear infinite;
+}
+.bubble.tiny_light {
+  left: 20vw;
+  animation: animateTiny 25s linear infinite;
+}
+.bubble.tiny_green {
+  left: 38vw;
+  animation: animateTiny 31s linear infinite;
+}
+.bubble.tiny_blue2 {
+  left: 58vw;
+  animation: animateTiny 20s linear infinite;
+}
+.bubble.tiny_light2 {
+  left: 80vw;
+  animation: animateTiny 45s linear infinite;
+}
+.bubble.tiny_green2 {
+  left: 95vw;
+  animation: animateTiny 21s linear infinite;
+}
+/*Tiny Bubbles*/
+/*MTT Bubbles*/
 .bubble.mtt_blue {
-    left: 0vw;
-    left: 4vw;
-    animation: animateMTT 28s linear infinite;
-  }
-  
-  .bubble.mtt_light {
-    left: 20vw;
-    animation: animateMTT 15s linear infinite;
-  }
-  
-  .bubble.mtt_green {
-    left: 40vw;
-    left: 38vw;
-    animation: animateMTT 21s linear infinite;
-  }
-  
-  .bubble.mtt_blue2 {
-    left: 60vw;
-    left: 58vw;
-    animation: animateMTT 10s linear infinite;
-  }
-  
-  .bubble.mtt_light2 {
-    left: 80vw;
-    animation: animateMTT 35s linear infinite;
-  }
-  
-  .bubble.mtt_green2 {
-    left: 90vw;
-    left: 95vw;
-    animation: animateMTT 11s linear infinite;
-  }
-  /*MTT Bubbles*/
+  left: 0vw;
+  left: 4vw;
+  animation: animateMTT 28s linear infinite;
+}
 
-  @-webkit-keyframes animate{
-    0% {
-      transform: translateY(60vh) scale(0);
-    }
-    100%{
-      transform: translateY(-6vh) scale(120);
-    }
+.bubble.mtt_light {
+  left: 20vw;
+  animation: animateMTT 15s linear infinite;
+}
+
+.bubble.mtt_green {
+  left: 40vw;
+  left: 38vw;
+  animation: animateMTT 21s linear infinite;
+}
+
+.bubble.mtt_blue2 {
+  left: 60vw;
+  left: 58vw;
+  animation: animateMTT 10s linear infinite;
+}
+
+.bubble.mtt_light2 {
+  left: 80vw;
+  animation: animateMTT 35s linear infinite;
+}
+
+.bubble.mtt_green2 {
+  left: 90vw;
+  left: 95vw;
+  animation: animateMTT 11s linear infinite;
+}
+/*MTT Bubbles*/
+
+@-webkit-keyframes animate {
+  0% {
+    transform: translateY(60vh) scale(0);
   }
-  @keyframes animateTop{
+  100% {
+    transform: translateY(-6vh) scale(120);
+  }
+}
+@keyframes animateTop {
+  0% {
+    transform: translateY(42vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+@keyframes animateLong {
+  0% {
+    transform: translateY(160vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+@keyframes animateMed {
+  0% {
+    transform: translateY(80vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+@keyframes animateMed2 {
+  0% {
+    transform: translateY(110vh) scale(0);
+    transform: translateY(190vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+@keyframes animateTiny {
+  0% {
+    transform: translateY(28vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+@keyframes animateMTT {
+  0% {
+    transform: translateY(330vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(120);
+  }
+}
+/*Smaller devices*/
+@media (max-width: 600px) {
+  @keyframes animate {
     0% {
-      transform: translateY(42vh) scale(0);
+      transform: translateY(88vh) scale(0);
     }
-    100%{
+    100% {
       transform: translateY(-10vh) scale(120);
     }
   }
-  @keyframes animateLong{
+
+  @keyframes animateTop {
+    0% {
+      transform: translateY(70vh) scale(20);
+    }
+    100% {
+      transform: translateY(-10vh) scale(120);
+    }
+  }
+
+  @keyframes animateLong {
     0% {
       transform: translateY(160vh) scale(0);
     }
-    100%{
+    100% {
       transform: translateY(-10vh) scale(120);
     }
   }
-  @keyframes animateMed{
+
+  @keyframes animateMed {
     0% {
       transform: translateY(80vh) scale(0);
     }
-    100%{
+    100% {
       transform: translateY(-10vh) scale(120);
     }
   }
-  @keyframes animateMed2{
+
+  @keyframes animateMed2 {
     0% {
       transform: translateY(110vh) scale(0);
-      transform: translateY(190vh) scale(0);
     }
-    100%{
+    100% {
       transform: translateY(-10vh) scale(120);
     }
   }
-  @keyframes animateTiny{
+
+  @keyframes animateTiny {
     0% {
-      transform: translateY(28vh) scale(0);
+      transform: translateY(40vh) scale(0);
     }
-    100%{
+    100% {
       transform: translateY(-10vh) scale(120);
     }
   }
-  @keyframes animateMTT{
+
+  @keyframes animateMTT {
     0% {
-      transform: translateY(330vh) scale(0);
+      transform: translateY(970vh) scale(20);
     }
-    100%{
-      transform: translateY(-10vh) scale(120);
-    }
-  }
-  /*Smaller devices*/
-  @media (max-width: 600px) {
-    @keyframes animate{
-      0% {
-        transform: translateY(88vh) scale(0);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateTop{
-      0% {
-        transform: translateY(70vh) scale(20);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateLong{
-      0% {
-        transform: translateY(160vh) scale(0);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateMed{
-      0% {
-        transform: translateY(80vh) scale(0);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateMed2{
-      0% {
-        transform: translateY(110vh) scale(0);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateTiny{
-      0% {
-        transform: translateY(40vh) scale(0);
-      }
-      100%{
-        transform: translateY(-10vh) scale(120);
-      }
-    }
-    
-    @keyframes animateMTT{
-      0% {
-        transform: translateY(970vh) scale(20);
-      }
-      100%{
-        transform: translateY(-10vh) scale(180);
-      }
+    100% {
+      transform: translateY(-10vh) scale(180);
     }
   }
+}
