@@ -92,7 +92,7 @@ footer {
 }
 footer a, footer a:visited, footer a:hover {
   padding: 1.25rem;
-  color: #04a7e7;
+  color:rgb(37, 182, 218);
 }
 footer p {
   color: black;
@@ -582,7 +582,7 @@ button:hover, .button:hover {
 }
 
 .ctabanner {
-  background-color: #c2e7b1;
+  background-color:rgb(221, 223, 221);
 }
 @media (min-width: 64em) {
   .ctabanner .container {
